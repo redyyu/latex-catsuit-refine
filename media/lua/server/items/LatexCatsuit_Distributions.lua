@@ -49,7 +49,7 @@ local ITEMS_WEIGHT = {
 }
 
 
-utils.insertTable = function(table_obj, key, weight)
+local function insertTable(table_obj, key, weight)
     if key:find(".", 1, true) == 1 then
         key = MOD_NAME..key
     end
@@ -66,7 +66,7 @@ end
 
 local function insertDistributionList(table_obj, ITEMS_WEIGHT, rate)
     for k, v in pairs(ITEMS_WEIGHT) do
-        utils.insertTable(table_obj, k, v*rate);
+        insertTable(table_obj, k, v*rate);
     end
 end
 
