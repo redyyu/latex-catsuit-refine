@@ -2,9 +2,9 @@
 <clothingItem>
 	<m_MaleModel></m_MaleModel>
 	<m_FemaleModel></m_FemaleModel>
-	<m_GUID>54d56acb-ab29-4f84-ad4f-591f9871b54c</m_GUID>
+	<m_GUID>65acf7bf-ae9f-4027-a36d-4c5a9699156d</m_GUID>
 	<m_Static>false</m_Static>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
-	<m_BaseTextures>clothes\Cuffs_Collar</m_BaseTextures>
+	<m_BaseTextures>clothes\Latex_Bolero_Nude</m_BaseTextures>
 </clothingItem>

@@ -2,9 +2,10 @@
 <clothingItem>
 	<m_MaleModel></m_MaleModel>
 	<m_FemaleModel></m_FemaleModel>
-	<m_GUID>54d56acb-ab29-4f84-ad4f-591f9871b54c</m_GUID>
+	<m_GUID>91926c09-017d-4aec-84ab-5e4bcfb018bd</m_GUID>
 	<m_Static>false</m_Static>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
-	<m_BaseTextures>clothes\Cuffs_Collar</m_BaseTextures>
+	<m_HatCategory>nohairnobeard</m_HatCategory>
+	<m_BaseTextures>clothes\Latex_Hood_Red</m_BaseTextures>
 </clothingItem>

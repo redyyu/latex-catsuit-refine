@@ -1,88 +1,68 @@
---BedroomDresser
-table.insert(ProceduralDistributions.list.BedroomDresser.items, "Latex_Gloves");
-table.insert(ProceduralDistributions.list.BedroomDresser.items, 0.1);
 
-table.insert(ProceduralDistributions.list.BedroomDresser.items, "Latex_Stockings");
-table.insert(ProceduralDistributions.list.BedroomDresser.items, 0.1);
+local ITEMS_WEIGHT = {
+    ["LatexCatsuitNude"]=1,
+    ["LatexCatsuitBlack"]=1,
+    ["LatexCatsuitRed"]=1,
+    ["LatexHoodNude"]=1,
+    ["LatexHoodBlack"]=1,
+    ["LatexHoodRed"]=1,
+    ["LatexLeotardNude"]=1,
+    ["LatexLeotardBlack"]=1,
+    ["LatexLeotardRed"]=1,
+    ["LatexLeotardHNude"]=1,
+    ["LatexLeotardHBlack"]=1,
+    ["LatexLeotardHRed"]=1,
+    ["LatexLeotardSNude"]=1,
+    ["LatexLeotardSBlack"]=1,
+    ["LatexLeotardSRed"]=1,
+    ["LatexBoleroNude"]=1,
+    ["LatexBoleroBlack"]=1,
+    ["LatexBoleroRed"]=1,
+    ["LatexPantsNude"]=1,
+    ["LatexPantsBlack"]=1,
+    ["LatexPantsRed"]=1,
+    ["LatexPantsOpenNude"]=1,
+    ["LatexPantsOpenBlack"]=1,
+    ["LatexPantsOpenRed"]=1,
+    ["LatexSkirtBlack"]=1,
+    ["LatexSkirtRed"]=1,
+    ["LatexStockingsNude"]=1,
+    ["LatexStockingsBlack"]=1,
+    ["LatexStockingsRed"]=1,
+    ["LatexStockingsHNude"]=1,
+    ["LatexStockingsHBlack"]=1,
+    ["LatexStockingsHRed"]=1,
+    ["LatexGlovesNude"]=1,
+    ["LatexGlovesBlack"]=1,
+    ["LatexGlovesRed"]=1,
+    ["HarnessRope"]=1,
+    ["HarnessBlack"]=1,
+    ["HarnessRed"]=1,
+    ["HarnessWRope"]=1,
+    ["HarnessWBlack"]=1,
+    ["HarnessWRed"]=1,
+    ["CuffsCollar"]=1,
+}
 
-table.insert(ProceduralDistributions.list.BedroomDresser.items, "Latex_Pants");
-table.insert(ProceduralDistributions.list.BedroomDresser.items, 0.1);
-table.insert(ProceduralDistributions.list.BedroomDresser.items, "Latex_Pants_Open");
-table.insert(ProceduralDistributions.list.BedroomDresser.items, 0.1);
 
-table.insert(ProceduralDistributions.list.BedroomDresser.items, "Latex_Skirt");
-table.insert(ProceduralDistributions.list.BedroomDresser.items, 0.1);
+local function insertTable(table_obj, key, weight)
+    if weight == nil and weight ~= 0 then
+        weight = 1
+    end
 
-table.insert(ProceduralDistributions.list.BedroomDresser.items, "Latex_Bolero");
-table.insert(ProceduralDistributions.list.BedroomDresser.items, 0.1);
+    if table_obj and table_obj.items then
+        table.insert(table_obj.items, key);
+        table.insert(table_obj.items, weight);
+    end
+end 
 
-table.insert(ProceduralDistributions.list.BedroomDresser.items, "Latex_Leotard");
-table.insert(ProceduralDistributions.list.BedroomDresser.items, 0.1);
-
-table.insert(ProceduralDistributions.list.BedroomDresser.items, "Latex_Hood");
-table.insert(ProceduralDistributions.list.BedroomDresser.items, 0.1);
-
-table.insert(ProceduralDistributions.list.BedroomDresser.items, "Latex_Catsuit");
-table.insert(ProceduralDistributions.list.BedroomDresser.items, 0.2);
-
-table.insert(ProceduralDistributions.list.BedroomDresser.items, "Latex_Catsuit_Nude");
-table.insert(ProceduralDistributions.list.BedroomDresser.items, 0.1);
-
-table.insert(ProceduralDistributions.list.BedroomDresser.items, "Cuffs_Collar");
-table.insert(ProceduralDistributions.list.BedroomDresser.items, 0.2);
-
-table.insert(ProceduralDistributions.list.BedroomDresser.items, "Leather_Harness");
-table.insert(ProceduralDistributions.list.BedroomDresser.items, 0.2);
+local function insertDistributionList(table_obj, ITEMS_WEIGHT, rate)
+    for k, v in pairs(ITEMS_WEIGHT) do
+        utils.insertTable(table_obj, k, v*rate);
+    end
+end
 
 
---WardrobeWoman
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, "Latex_Gloves");
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, 0.1);
-
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, "Latex_Stockings");
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, 0.1);
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, "Latex_Pants");
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, 0.1);
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, "Latex_Pants_Open");
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, 0.1);
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, "Latex_Skirt");
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, 0.1);
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, "Latex_Bolero");
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, 0.1);
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, "Latex_Leotard");
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, 0.1);
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, "Latex_Hood");
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, 0.1);
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, "Latex_Catsuit");
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, 0.2);
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, "Latex_Catsuit_Nude");
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, 0.1);
-
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, "Cuffs_Collar");
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, 0.2);
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, "Leather_Harness");
-table.insert(ProceduralDistributions.list.WardrobeWoman.items, 0.2);
-
---StripClubDressers
-table.insert(ProceduralDistributions.list.StripClubDressers.items, "Latex_Gloves");
-table.insert(ProceduralDistributions.list.StripClubDressers.items, 10);
-table.insert(ProceduralDistributions.list.StripClubDressers.items, "Latex_Stockings");
-table.insert(ProceduralDistributions.list.StripClubDressers.items, 10);
-table.insert(ProceduralDistributions.list.StripClubDressers.items, "Latex_Pants");
-table.insert(ProceduralDistributions.list.StripClubDressers.items, 10);
-table.insert(ProceduralDistributions.list.StripClubDressers.items, "Latex_Pants_Open");
-table.insert(ProceduralDistributions.list.StripClubDressers.items, 10);
-table.insert(ProceduralDistributions.list.StripClubDressers.items, "Latex_Skirt");
-table.insert(ProceduralDistributions.list.StripClubDressers.items, 10);
-table.insert(ProceduralDistributions.list.StripClubDressers.items, "Latex_Bolero");
-table.insert(ProceduralDistributions.list.StripClubDressers.items, 10);
-table.insert(ProceduralDistributions.list.StripClubDressers.items, "Latex_Leotard");
-table.insert(ProceduralDistributions.list.StripClubDressers.items, 10);
-table.insert(ProceduralDistributions.list.StripClubDressers.items, "Latex_Hood");
-table.insert(ProceduralDistributions.list.StripClubDressers.items, 10);
-table.insert(ProceduralDistributions.list.StripClubDressers.items, "Latex_Catsuit");
-table.insert(ProceduralDistributions.list.StripClubDressers.items, 20);
-table.insert(ProceduralDistributions.list.StripClubDressers.items, "Latex_Catsuit_Nude");
-table.insert(ProceduralDistributions.list.StripClubDressers.items, 10);
-table.insert(ProceduralDistributions.list.StripClubDressers.items, "Leather_Harness");
-table.insert(ProceduralDistributions.list.StripClubDressers.items, 20);
+insertDistributionList(ProceduralDistributions.list.BedroomDresser, ITEMS_WEIGHT, 0.1);
+insertDistributionList(ProceduralDistributions.list.WardrobeWoman, ITEMS_WEIGHT, 0.1);
+insertDistributionList(ProceduralDistributions.list.StripClubDressers, ITEMS_WEIGHT, 10);

@@ -2,9 +2,9 @@
 <clothingItem>
 	<m_MaleModel></m_MaleModel>
 	<m_FemaleModel></m_FemaleModel>
-	<m_GUID>54d56acb-ab29-4f84-ad4f-591f9871b54c</m_GUID>
+	<m_GUID>53ef7282-1e8f-4e73-9093-2fe17dd284be</m_GUID>
 	<m_Static>false</m_Static>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
-	<m_BaseTextures>clothes\Cuffs_Collar</m_BaseTextures>
+	<m_BaseTextures>clothes\Latex_Pants_Open_Nude</m_BaseTextures>
 </clothingItem>

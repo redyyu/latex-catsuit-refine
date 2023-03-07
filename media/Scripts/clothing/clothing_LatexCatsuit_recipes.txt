@@ -1,0 +1,40 @@
+module LatexCatsuitRefine
+{
+    imports {
+	    Base,
+    }
+
+    recipe Make Rubber Catsuit Transparent {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        LeatherStrips=6,
+        RubberBand=6,
+        Thread=6,
+        Tarp=2,
+
+        Result: LatexCatsuitNude,
+        SkillRequired: Tailoring=6,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 500.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Rubber Catsuit {
+        LatexCatsuitNude,
+        PaintBlack/PaintRed,
+        
+        OnCreate:Recipe.OnCreate.PrintCatsuit,
+
+        Result: LatexCatsuit,
+        SkillRequired: Tailoring=6,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 500.0,
+        Category: Latex Catsuit,
+    }
+}

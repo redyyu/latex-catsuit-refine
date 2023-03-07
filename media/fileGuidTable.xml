@@ -1,65 +1,225 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <fileGuidTable>
-	<!--NEW ITEMS-->
 
 	<files>
-	<path>media/clothing/clothingItems/Latex_Hood.xml</path>
-	<guid>56b6ccc4-7363-4530-ae61-d389cfa9ce41</guid>
+		<path>media/clothing/clothingItems/Cuffs_Collar.xml</path>
+		<guid>54d56acb-ab29-4f84-ad4f-591f9871b54c</guid>
 	</files>
 
 	<files>
-	<path>media/clothing/clothingItems/Latex_Leotard.xml</path>
-	<guid>9a9df4fd-1c9b-492a-9dc5-0c71d651406c</guid>
+		<path>media/clothing/clothingItems/Harness_Black.xml</path>
+		<guid>6f1f17c3-d531-47aa-be84-2be8ad318f32</guid>
 	</files>
 
 	<files>
-	<path>media/clothing/clothingItems/Latex_Bolero.xml</path>
-	<guid>4bd4c76c-a2ae-4666-872c-1eaf756bd8de</guid>
+		<path>media/clothing/clothingItems/Harness_Red.xml</path>
+		<guid>eeb74f46-08f3-453b-8559-5e21ce6ffe67</guid>
 	</files>
 
 	<files>
-	<path>media/clothing/clothingItems/Latex_Pants.xml</path>
-	<guid>194bd8e7-ff2f-483f-84fa-3d2cadb0466a</guid>
+		<path>media/clothing/clothingItems/Harness_Rope.xml</path>
+		<guid>66a47611-1187-4f1f-b606-29600e3fa670</guid>
 	</files>
 
 	<files>
-	<path>media/clothing/clothingItems/Latex_Pants_Open.xml</path>
-	<guid>af38f6a9-b46b-4b9e-828b-2adcfa282850</guid>
+		<path>media/clothing/clothingItems/Harness_W_Black.xml</path>
+		<guid>18a0b942-5b9c-435a-af7f-faba40fe9d81</guid>
 	</files>
 
 	<files>
-	<path>media/clothing/clothingItems/Latex_Skirt.xml</path>
-	<guid>3a2096a6-5989-471a-940c-0e36ca9a35bd</guid>
+		<path>media/clothing/clothingItems/Harness_W_Red.xml</path>
+		<guid>3ac19d26-b6ef-4dbc-921a-806393932df8</guid>
 	</files>
 
 	<files>
-	<path>media/clothing/clothingItems/Latex_Gloves_Long.xml</path>
-	<guid>5ebb4b68-5089-486c-8ea1-687bc4d05cfc</guid>
+		<path>media/clothing/clothingItems/Harness_W_Rope.xml</path>
+		<guid>868a9dc2-f23b-4dbd-8e27-dd0a1e860170</guid>
 	</files>
 
 	<files>
-	<path>media/clothing/clothingItems/Latex_Stockings.xml</path>
-	<guid>6ef808bf-64a1-4d95-9242-59cd885a38a4</guid>
+		<path>media/clothing/clothingItems/Latex_Bolero_Black.xml</path>
+		<guid>5b9447f6-ba45-41ae-ac8d-69ab7414b4c2</guid>
 	</files>
 
 	<files>
-	<path>media/clothing/clothingItems/Leather_Harness.xml</path>
-	<guid>ca7f3c58-d600-463f-8c06-a45e3b6d394d</guid>
+		<path>media/clothing/clothingItems/Latex_Bolero_Nude.xml</path>
+		<guid>65acf7bf-ae9f-4027-a36d-4c5a9699156d</guid>
 	</files>
 
 	<files>
-	<path>media/clothing/clothingItems/Cuffs_Collar.xml</path>
-	<guid>99c01c43-aff9-4105-8cbf-eb8b7b2ebe32</guid>
+		<path>media/clothing/clothingItems/Latex_Bolero_Red.xml</path>
+		<guid>e5e7a291-022f-4a3c-8e1e-d32ec78012b8</guid>
 	</files>
 
 	<files>
-	<path>media/clothing/clothingItems/Latex_Catsuit.xml</path>
-	<guid>54b2e8b0-0904-40cb-8c48-2bc95db22fc6</guid>
+		<path>media/clothing/clothingItems/Latex_Catsuit_Black.xml</path>
+		<guid>67c442e8-9f9f-4ae1-8696-cdc3986d9a59</guid>
 	</files>
 
 	<files>
-	<path>media/clothing/clothingItems/Latex_Catsuit_Nude.xml</path>
-	<guid>ca837df0-89ce-4cca-9ef0-38134bc97d19</guid>
+		<path>media/clothing/clothingItems/Latex_Catsuit_Nude.xml</path>
+		<guid>c24f06e3-7873-4328-95e2-e0ce339c929f</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Catsuit_Red.xml</path>
+		<guid>91b2c01a-fc97-4a7e-ba1b-8d224810bb1d</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Gloves_Black.xml</path>
+		<guid>b4c84f7a-2bb7-4af3-b986-ebc11229df6d</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Gloves_Nude.xml</path>
+		<guid>5f7193b9-c1dc-425e-98fc-871ce9998cde</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Gloves_Red.xml</path>
+		<guid>c63394b8-105f-43f9-9210-457e80616705</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Hood_Black.xml</path>
+		<guid>828fdb4b-be92-48a4-a38a-87d74d23bf51</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Hood_Nude.xml</path>
+		<guid>b872ac97-94d8-4c1b-a93e-15e18db0198d</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Hood_Red.xml</path>
+		<guid>91926c09-017d-4aec-84ab-5e4bcfb018bd</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Leotard_Black.xml</path>
+		<guid>98d86440-e5e4-46a6-8e0d-0cfa691f5fd8</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Leotard_H_Black.xml</path>
+		<guid>72432ed9-8b4c-4782-ab16-cfb90e846098</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Leotard_H_Nude.xml</path>
+		<guid>3608ced2-ee05-47d4-84c4-0860de786023</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Leotard_H_Red.xml</path>
+		<guid>ee025e52-8755-4a6c-8f93-9f10f5d83421</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Leotard_Nude.xml</path>
+		<guid>a5f38ec8-d59f-460c-ac4d-ee5a44fb5bab</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Leotard_Red.xml</path>
+		<guid>ea46cf71-cca7-4465-b31e-09736d2e36ec</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Leotard_S_Black.xml</path>
+		<guid>b9b4cfd7-f27b-470d-93ea-41f4499b63c0</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Leotard_S_Nude.xml</path>
+		<guid>384982a5-b5e8-47fd-952e-2fcbe2e8a955</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Leotard_S_Red.xml</path>
+		<guid>45cf427b-b623-40f6-ba53-334f94c57917</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Pants_Black.xml</path>
+		<guid>430f1a52-2bd9-439e-aa63-b05e6071d1ae</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingitems/Latex_Pants_Nude.xml</path>
+		<guid>43f2a668-df30-4c89-b8e5-90fb12ebdda4</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingitems/Latex_Pants_Open_Black.xml</path>
+		<guid>d71efe07-b915-4ca4-96ce-7f9ce4d0b671</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingitems/Latex_Pants_Open_Nude.xml</path>
+		<guid>53ef7282-1e8f-4e73-9093-2fe17dd284be</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingitems/Latex_Pants_Open_Red.xml</path>
+		<guid>d8c8bb5d-95b5-42a0-8053-11c8b6042a0e</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingitems/Latex_Pants_Red.xml</path>
+		<guid>1c872d9e-5408-4a80-8f0d-68ad2759e944</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingitems/Latex_Skirt_Black.xml</path>
+		<guid>caf070d5-5251-4ed7-9b8b-1ee96c381ab7</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingitems/Latex_Skirt_Red.xml</path>
+		<guid>8cc8c00c-9f38-4ecd-b491-a95bc3bca984</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingitems/Latex_Stockings_Black.xml</path>
+		<guid>526929cb-a86a-442c-b916-8f5553cb5b11</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingitems/Latex_Stockings_H_Black.xml</path>
+		<guid>d312defc-f584-4eb2-9f70-a911b10d7bfc</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingitems/Latex_Stockings_H_Nude.xml</path>
+		<guid>57af4c9e-a128-4136-b3ad-72dafe0c1e40</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingitems/Latex_Stockings_H_Red.xml</path>
+		<guid>b93c5822-2630-4155-aaad-7c2297dc82aa</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingitems/Latex_Stockings_Nude.xml</path>
+		<guid>7925d3dc-0d08-4a70-b55f-a680ac5548ae</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingitems/Latex_Stockings_Red.xml</path>
+		<guid>f3aba4c7-6a3d-490d-a5eb-46d38ecc1509</guid>
+	</files>
+
+
+	<!-- Vanilla Defaults -->
+	<files>
+		<path>media/clothing/clothingItems/Shoes_BlackBoots.xml</path>
+		<guid>2717dfdb-49ef-401a-9715-c4487ce6abea</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shoes_RidingBoots.xml</path>
+		<guid>09bc4da2-6038-4575-985b-c27b8dbfef6c</guid>
 	</files>
 
 </fileGuidTable>

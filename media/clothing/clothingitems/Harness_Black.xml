@@ -2,10 +2,9 @@
 <clothingItem>
 	<m_MaleModel></m_MaleModel>
 	<m_FemaleModel></m_FemaleModel>
-	<m_GUID>5ebb4b68-5089-486c-8ea1-687bc4d05cfc</m_GUID>
+	<m_GUID>6f1f17c3-d531-47aa-be84-2be8ad318f32</m_GUID>
 	<m_Static>false</m_Static>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
-	<m_BaseTextures>clothes\Latex_Gloves_Long</m_BaseTextures>
-	<m_BaseTextures>clothes\Latex_Gloves_LongR</m_BaseTextures>
+	<m_BaseTextures>clothes\Harness_Black</m_BaseTextures>
 </clothingItem>
