@@ -3,7 +3,7 @@ require "Items/ProceduralDistributions"
 MOD_NAME = "LatexCatsuitRefine";
 
 local ITEMS_WEIGHT = {
-    [".LatexCatsuitWomenMag"]=0.1,
+    [".LatexCatsuitMag"]=0.1,
     [".LatexCatsuitNude"]=1,
     [".LatexCatsuitBlack"]=1,
     [".LatexCatsuitRed"]=1,
@@ -75,8 +75,8 @@ insertDistributionList(ProceduralDistributions.list.BedroomDresser, ITEMS_WEIGHT
 insertDistributionList(ProceduralDistributions.list.WardrobeWoman, ITEMS_WEIGHT, 0.1);
 insertDistributionList(ProceduralDistributions.list.StripClubDressers, ITEMS_WEIGHT, 15);
 
-insertTable(ProceduralDistributions.list["CrateBooks"], ".LatexCatsuitWomenMag", 0.01);
-insertTable(ProceduralDistributions.list["BookstoreMisc"], ".LatexCatsuitWomenMag", 0.01);
-insertTable(ProceduralDistributions.list["CrateMagazines"], ".LatexCatsuitWomenMag", 0.01);
-insertTable(ProceduralDistributions.list["LibraryBooks"], ".LatexCatsuitWomenMag", 0.01);
-insertTable(ProceduralDistributions.list["MagazineRackMixed"], ".LatexCatsuitWomenMag", 0.01);
+insertTable(ProceduralDistributions.list["CrateBooks"], ".LatexCatsuitMag", 0.01);
+insertTable(ProceduralDistributions.list["BookstoreMisc"], ".LatexCatsuitMag", 0.01);
+insertTable(ProceduralDistributions.list["CrateMagazines"], ".LatexCatsuitMag", 0.01);
+insertTable(ProceduralDistributions.list["LibraryBooks"], ".LatexCatsuitMag", 0.01);
+insertTable(ProceduralDistributions.list["MagazineRackMixed"], ".LatexCatsuitMag", 0.01);

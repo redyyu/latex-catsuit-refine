@@ -1,14 +1,14 @@
 module LatexCatsuitRefine
 {
 
-    item LatexCatsuitWomenMag {
+    item LatexCatsuitMag {
         DisplayCategory = SkillBook,
         Weight = 0.1,
         Type = Literature,
-        DisplayName	= The Cat Women,
-        Icon = MagazineLatexCatsuitWomenMag,
+        DisplayName	= The Cat Woman,
+        Icon = MagazineLatexCatsuitMag,
         TeachedRecipes = Make Latex Catsuit Transparent;Make Latex Hood Transparent;Make Latex Leotard Transparent;Make Latex Leotard H Transparent;Make Latex Leotard S Transparent;Make Latex Bolero Transparent;Make Latex Pants Transparent;Make Open Crotch Latex Pants Transparent;Make Latex Skirt Black;Make Latex Skirt Red;Make Latex Stockings Transparent;Make Latex Stockings H Transparent;Make Latex Gloves Transparent;Make Harness Rope;Make Harness Black;Make Harness Red;Make Harness W Rope;Make Harness W Black;Make Harness W Red,
-        ReplaceOnUse = LatexCatsuitWomenMag,
+        ReplaceOnUse = LatexCatsuitMag,
         StaticModel = Magazine,
         WorldStaticModel = MagazineGround,
     }
