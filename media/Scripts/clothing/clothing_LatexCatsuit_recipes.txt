@@ -4,16 +4,16 @@ module LatexCatsuitRefine
 	    Base,
     }
 
-    recipe Make Rubber Catsuit Transparent {
+    recipe Make Latex Catsuit Transparent {
         keep Scissors,
         keep Needle/SutureNeedle,
-        LeatherStrips=6,
-        RubberBand=6,
-        Thread=6,
-        Tarp=2,
+        LeatherStrips=8,
+        RubberBand=8,
+        Thread=8,
+        Tarp=4,
 
         Result: LatexCatsuitNude,
-        SkillRequired: Tailoring=6,
+        SkillRequired: Tailoring=8,
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -22,14 +22,12 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
-    recipe Make Rubber Catsuit {
+    recipe Paint Latex Catsuit Black {
         LatexCatsuitNude,
-        PaintBlack/PaintRed,
+        PaintBlack,
         
-        OnCreate:Recipe.OnCreate.PrintCatsuit,
-
         Result: LatexCatsuit,
-        SkillRequired: Tailoring=6,
+        SkillRequired: Tailoring=2,
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -37,4 +35,628 @@ module LatexCatsuitRefine
         Time: 500.0,
         Category: Latex Catsuit,
     }
+
+    recipe Paint Latex Catsuit Red {
+        LatexCatsuitNude,
+        PaintRed,
+        
+        Result: LatexCatsuit,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 500.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Latex Hood Transparent {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        LeatherStrips=3,
+        RubberBand=3,
+        Thread=3,
+        Tarp=1,
+
+        Result: LatexHoodNude,
+        SkillRequired: Tailoring=6,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Hood Black {
+        LatexHoodNude,
+        PaintBlack,
+        
+        Result: LatexHoodBlack,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Hood Red {
+        LatexHoodNude,
+        PaintRed,
+        
+        Result: LatexHoodRed,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Latex Leotard Transparent {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        LeatherStrips=3,
+        RubberBand=3,
+        Thread=3,
+        Tarp=1,
+
+        Result: LatexLeotardNude,
+        SkillRequired: Tailoring=6,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Leotard Black {
+        LatexLeotardNude,
+        PaintBlack,
+        
+        Result: LatexLeotardBlack,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Leotard Red {
+        LatexLeotardNude,
+        PaintRed,
+        
+        Result: LatexLeotardRed,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Latex Leotard H Transparent {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        LeatherStrips=3,
+        RubberBand=3,
+        Thread=3,
+        Tarp=1,
+
+        Result: LatexLeotardHNude,
+        SkillRequired: Tailoring=6,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Leotard H Black {
+        LatexLeotardHNude,
+        PaintBlack,
+        
+        Result: LatexLeotardHBlack,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Leotard H Red {
+        LatexLeotardHNude,
+        PaintRed,
+        
+        Result: LatexLeotardHRed,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Latex Leotard S Transparent {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        LeatherStrips=3,
+        RubberBand=3,
+        Thread=3,
+        Tarp=1,
+
+        Result: LatexLeotardSNude,
+        SkillRequired: Tailoring=6,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Leotard S Black {
+        LatexLeotardSNude,
+        PaintBlack,
+        
+        Result: LatexLeotardSBlack,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Leotard S Red {
+        LatexLeotardSNude,
+        PaintRed,
+        
+        Result: LatexLeotardSRed,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Latex Bolero Transparent {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        LeatherStrips=3,
+        RubberBand=3,
+        Thread=3,
+        Tarp=1,
+
+        Result: LatexBoleroNude,
+        SkillRequired: Tailoring=6,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Bolero Black {
+        LatexBoleroNude,
+        PaintBlack,
+        
+        Result: LatexBoleroBlack,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Bolero Red {
+        LatexBoleroNude,
+        PaintRed,
+        
+        Result: LatexBoleroRed,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Latex Pants Transparent {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        LeatherStrips=4,
+        RubberBand=4,
+        Thread=4,
+        Tarp=2,
+
+        Result: LatexPantsNude,
+        SkillRequired: Tailoring=6,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Pants Black {
+        LatexPantsNude,
+        PaintBlack,
+        
+        Result: LatexPantsBlack,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Pants Red {
+        LatexPantsNude,
+        PaintRed,
+        
+        Result: LatexPantsRed,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Open Crotch Latex Pants Transparent {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        LeatherStrips=4,
+        RubberBand=4,
+        Thread=4,
+        Tarp=2,
+
+        Result: LatexPantsOpenNude,
+        SkillRequired: Tailoring=6,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Open Crotch Latex Pants Black {
+        LatexPantsOpenNude,
+        PaintBlack,
+        
+        Result: LatexPantsOpenBlack,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Open Crotch Latex Pants Red {
+        LatexPantsOpenNude,
+        PaintRed,
+        
+        Result: LatexPantsOpenRed,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Latex Skirt Black {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        LeatherStrips=3,
+        RubberBand=3,
+        Thread=3,
+        Tarp=1,
+        PaintBlack,
+
+        Result: LatexSkirtBlack,
+        SkillRequired: Tailoring=5,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Latex Skirt Red {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        LeatherStrips=3,
+        RubberBand=3,
+        Thread=3,
+        Tarp=1,
+        PaintRed,
+
+        Result: LatexSkirtRed,
+        SkillRequired: Tailoring=5,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Latex Stockings Transparent {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        LeatherStrips=4,
+        RubberBand=2,
+        Thread=2,
+        Tarp=1,
+        PaintRed,
+
+        Result: LatexStockingsNude,
+        SkillRequired: Tailoring=5,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 250.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Stockings Black {
+        LatexStockingsNude,
+        PaintBlack,
+        
+        Result: LatexStockingsBlack,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 250.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Stockings Red {
+        LatexStockingsNude,
+        PaintRed,
+        
+        Result: LatexStockingsRed,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 250.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Latex Stockings H Transparent {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        LeatherStrips=4,
+        RubberBand=2,
+        Thread=2,
+        Tarp=1,
+        PaintRed,
+
+        Result: LatexStockingsHNude,
+        SkillRequired: Tailoring=5,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 250.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Stockings H Black {
+        LatexStockingsHNude,
+        PaintBlack,
+        
+        Result: LatexStockingsHBlack,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 250.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Stockings H Red {
+        LatexStockingsHNude,
+        PaintRed,
+        
+        Result: LatexStockingsHRed,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 250.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Latex Gloves Transparent {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        LeatherStrips=4,
+        RubberBand=2,
+        Thread=2,
+        Tarp=1,
+        PaintRed,
+
+        Result: LatexGlovesNude,
+        SkillRequired: Tailoring=5,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 250.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Gloves Black {
+        LatexGlovesNude,
+        PaintBlack,
+        
+        Result: LatexGlovesBlack,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 250.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Gloves Red {
+        LatexGlovesNude,
+        PaintRed,
+        
+        Result: LatexGlovesRed,
+        SkillRequired: Tailoring=2,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 250.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Harness Rope {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        RubberBand=2,
+        Thread=2,
+        Leash,
+        Rope,
+
+        Result: HarnessRope,
+        SkillRequired: Tailoring=4,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 200.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Harness Black {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        RubberBand=2,
+        Thread=2,
+        Leash,
+        PaintBlack,
+
+        Result: HarnessBlack,
+        SkillRequired: Tailoring=4,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 200.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Harness Red {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        RubberBand=2,
+        Thread=2,
+        Leash,
+        PaintRed,
+
+        Result: HarnessRed,
+        SkillRequired: Tailoring=4,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 200.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Harness W Rope {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        RubberBand=2,
+        Thread=2,
+        Leash,
+        Rope,
+
+        Result: HarnessWRope,
+        SkillRequired: Tailoring=4,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 200.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Harness W Black {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        RubberBand=2,
+        Thread=2,
+        Leash,
+        PaintBlack,
+
+        Result: HarnessWBlack,
+        SkillRequired: Tailoring=4,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 200.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Harness W Red {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        RubberBand=2,
+        Thread=2,
+        Leash,
+        PaintRed,
+
+        Result: HarnessWRed,
+        SkillRequired: Tailoring=4,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 200.0,
+        Category: Latex Catsuit,
+    }
+
 }
