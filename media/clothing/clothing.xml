@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+	<m_FemaleOutfits>
+		<m_Name>LatexCatsuitGirl</m_Name>
+		<m_Guid>01283d2e-4091-4fb0-962e-18e1d1d85da1</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		
+		<m_items>
+			<itemGUID>56b6ccc4-7363-4530-ae61-d389cfa9ce41</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.6</probability>
+			<itemGUID>9a9df4fd-1c9b-492a-9dc5-0c71d651406c</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>4bd4c76c-a2ae-4666-872c-1eaf756bd8de</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.6</probability>
+			<itemGUID>54b2e8b0-0904-40cb-8c48-2bc95db22fc6</itemGUID>
+			<subItems>
+				<itemGUID>ca837df0-89ce-4cca-9ef0-38134bc97d19</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.6</probability>
+			<itemGUID>194bd8e7-ff2f-483f-84fa-3d2cadb0466a</itemGUID>
+			<subItems>
+				<itemGUID>af38f6a9-b46b-4b9e-828b-2adcfa282850</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>3a2096a6-5989-471a-940c-0e36ca9a35bd</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.6</probability>
+			<itemGUID>5ebb4b68-5089-486c-8ea1-687bc4d05cfc</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.6</probability>
+			<itemGUID>6ef808bf-64a1-4d95-9242-59cd885a38a4</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>ca7f3c58-d600-463f-8c06-a45e3b6d394d</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>99c01c43-aff9-4105-8cbf-eb8b7b2ebe32</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+</outfitManager>
