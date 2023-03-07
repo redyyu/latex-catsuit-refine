@@ -31,7 +31,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 500.0,
         Category: Latex Catsuit,
     }
@@ -45,7 +45,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 500.0,
         Category: Latex Catsuit,
     }
@@ -77,7 +77,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 300.0,
         Category: Latex Catsuit,
     }
@@ -91,7 +91,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 300.0,
         Category: Latex Catsuit,
     }
@@ -123,7 +123,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 300.0,
         Category: Latex Catsuit,
     }
@@ -137,7 +137,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 300.0,
         Category: Latex Catsuit,
     }
@@ -169,7 +169,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 300.0,
         Category: Latex Catsuit,
     }
@@ -183,7 +183,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 300.0,
         Category: Latex Catsuit,
     }
@@ -215,7 +215,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 300.0,
         Category: Latex Catsuit,
     }
@@ -229,7 +229,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 300.0,
         Category: Latex Catsuit,
     }
@@ -261,7 +261,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 300.0,
         Category: Latex Catsuit,
     }
@@ -275,7 +275,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 300.0,
         Category: Latex Catsuit,
     }
@@ -307,7 +307,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 300.0,
         Category: Latex Catsuit,
     }
@@ -321,7 +321,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 300.0,
         Category: Latex Catsuit,
     }
@@ -353,7 +353,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 300.0,
         Category: Latex Catsuit,
     }
@@ -367,7 +367,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 300.0,
         Category: Latex Catsuit,
     }
@@ -438,7 +438,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 250.0,
         Category: Latex Catsuit,
     }
@@ -452,7 +452,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 250.0,
         Category: Latex Catsuit,
     }
@@ -485,7 +485,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 250.0,
         Category: Latex Catsuit,
     }
@@ -499,7 +499,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 250.0,
         Category: Latex Catsuit,
     }
@@ -532,7 +532,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 250.0,
         Category: Latex Catsuit,
     }
@@ -546,7 +546,7 @@ module LatexCatsuitRefine
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
+        Sound: Painting,
         Time: 250.0,
         Category: Latex Catsuit,
     }
