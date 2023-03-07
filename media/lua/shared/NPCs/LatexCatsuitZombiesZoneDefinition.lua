@@ -1,6 +1,6 @@
-table.insert(ZombiesZoneDefinition.Default, {name = "LatexCatsuitGirlNude", chance=100.2});
-table.insert(ZombiesZoneDefinition.Default, {name = "LatexCatsuitGirlBlack", chance=100.2});
-table.insert(ZombiesZoneDefinition.Default, {name = "LatexCatsuitGirlRed", chance=100.2});
+table.insert(ZombiesZoneDefinition.Default, {name = "LatexCatsuitGirlNude", chance=0.2});
+table.insert(ZombiesZoneDefinition.Default, {name = "LatexCatsuitGirlBlack", chance=0.2});
+table.insert(ZombiesZoneDefinition.Default, {name = "LatexCatsuitGirlRed", chance=0.2});
 
 table.insert(ZombiesZoneDefinition.Bar, {name = "LatexCatsuitGirlNude", chance=0.1});
 table.insert(ZombiesZoneDefinition.Bar, {name = "LatexCatsuitGirlBlack", chance=0.1});

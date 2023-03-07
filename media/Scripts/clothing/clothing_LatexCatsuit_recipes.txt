@@ -26,7 +26,7 @@ module LatexCatsuitRefine
         LatexCatsuitNude,
         PaintBlack,
         
-        Result: LatexCatsuit,
+        Result: LatexCatsuitBlack,
         SkillRequired: Tailoring=2,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -40,7 +40,7 @@ module LatexCatsuitRefine
         LatexCatsuitNude,
         PaintRed,
         
-        Result: LatexCatsuit,
+        Result: LatexCatsuitRed,
         SkillRequired: Tailoring=2,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -417,7 +417,6 @@ module LatexCatsuitRefine
         RubberBand=2,
         Thread=2,
         Tarp=1,
-        PaintRed,
 
         Result: LatexStockingsNude,
         SkillRequired: Tailoring=5,
@@ -464,7 +463,6 @@ module LatexCatsuitRefine
         RubberBand=2,
         Thread=2,
         Tarp=1,
-        PaintRed,
 
         Result: LatexStockingsHNude,
         SkillRequired: Tailoring=5,
@@ -511,7 +509,6 @@ module LatexCatsuitRefine
         RubberBand=2,
         Thread=2,
         Tarp=1,
-        PaintRed,
 
         Result: LatexGlovesNude,
         SkillRequired: Tailoring=5,
