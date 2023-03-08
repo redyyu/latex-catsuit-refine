@@ -1,6 +1,6 @@
-local function setHide(group, cover_locations, hidden_location)
-    for i=0, cover_locations:size() - 1 do
-        group:setHideModel(cover_locations:get(i), hidden_location);
+local function setHideBodyLocation(group, cover_locations, hidden_location)
+    for i=1, #cover_locations do
+        group:setHideModel(cover_locations[i], hidden_location);
     end
 end 
 
@@ -13,20 +13,22 @@ local group = BodyLocations.getGroup("Human")
 group:getOrCreateLocation("Harness");
 
 
-local outer_locations = {
-    "Boilersuit",
-    "BathRobe",
-    "Jacket",
-    "JacketSuit",
-    "Jacket_Bulky",
-    "Jacket_Down",
-    "JacketHat",
-    "JacketHat_Bulky",
-    "FullSuitHead",
-    "TorsoExtraVest",
-}
 
-setHide(group, "Harness");
+-- DONT NEED HIDDEN FROM MODELED OUTER BODY LOCATIONS.
 
+-- local outer_body_locations = {
+--     "Boilersuit",
+--     "BathRobe",
+--     "Jacket",
+--     "JacketSuit",
+--     "Jacket_Bulky",
+--     "Jacket_Down",
+--     "JacketHat",
+--     "JacketHat_Bulky",
+--     "FullSuitHead",
+--     "TorsoExtraVest",
+-- }
+
+-- setHideBodyLocation(group, outer_body_locations, "Harness");
 
 -- group:setMultiItem("UnderwearExtra2", true) -- might cause duplicetd items on same location.
