@@ -19,7 +19,7 @@ module LatexCatsuitRefine
         Prop1: Source=1,
         Prop2: Source=2,
         Sound: ClothesRipping,
-        Time: 500.0,
+        Time: 900.0,
         Category: Latex Catsuit,
     }
 
@@ -66,7 +66,7 @@ module LatexCatsuitRefine
         Prop1: Source=1,
         Prop2: Source=2,
         Sound: ClothesRipping,
-        Time: 300.0,
+        Time: 600.0,
         Category: Latex Catsuit,
     }
 
@@ -113,7 +113,7 @@ module LatexCatsuitRefine
         Prop1: Source=1,
         Prop2: Source=2,
         Sound: ClothesRipping,
-        Time: 300.0,
+        Time: 600.0,
         Category: Latex Catsuit,
     }
 
@@ -160,7 +160,7 @@ module LatexCatsuitRefine
         Prop1: Source=1,
         Prop2: Source=2,
         Sound: ClothesRipping,
-        Time: 300.0,
+        Time: 600.0,
         Category: Latex Catsuit,
     }
 
@@ -207,7 +207,7 @@ module LatexCatsuitRefine
         Prop1: Source=1,
         Prop2: Source=2,
         Sound: ClothesRipping,
-        Time: 300.0,
+        Time: 600.0,
         Category: Latex Catsuit,
     }
 
@@ -254,7 +254,7 @@ module LatexCatsuitRefine
         Prop1: Source=1,
         Prop2: Source=2,
         Sound: ClothesRipping,
-        Time: 300.0,
+        Time: 600.0,
         Category: Latex Catsuit,
     }
 
@@ -301,7 +301,7 @@ module LatexCatsuitRefine
         Prop1: Source=1,
         Prop2: Source=2,
         Sound: ClothesRipping,
-        Time: 300.0,
+        Time: 600.0,
         Category: Latex Catsuit,
     }
 
@@ -348,7 +348,7 @@ module LatexCatsuitRefine
         Prop1: Source=1,
         Prop2: Source=2,
         Sound: ClothesRipping,
-        Time: 300.0,
+        Time: 600.0,
         Category: Latex Catsuit,
     }
 
@@ -396,7 +396,7 @@ module LatexCatsuitRefine
         Prop1: Source=1,
         Prop2: Source=2,
         Sound: ClothesRipping,
-        Time: 300.0,
+        Time: 600.0,
         Category: Latex Catsuit,
     }
 
@@ -416,7 +416,7 @@ module LatexCatsuitRefine
         Prop1: Source=1,
         Prop2: Source=2,
         Sound: ClothesRipping,
-        Time: 300.0,
+        Time: 500.0,
         Category: Latex Catsuit,
     }
 
@@ -435,7 +435,7 @@ module LatexCatsuitRefine
         Prop1: Source=1,
         Prop2: Source=2,
         Sound: ClothesRipping,
-        Time: 250.0,
+        Time: 550.0,
         Category: Latex Catsuit,
     }
 
@@ -482,7 +482,7 @@ module LatexCatsuitRefine
         Prop1: Source=1,
         Prop2: Source=2,
         Sound: ClothesRipping,
-        Time: 250.0,
+        Time: 550.0,
         Category: Latex Catsuit,
     }
 
@@ -529,7 +529,7 @@ module LatexCatsuitRefine
         Prop1: Source=1,
         Prop2: Source=2,
         Sound: ClothesRipping,
-        Time: 250.0,
+        Time: 550.0,
         Category: Latex Catsuit,
     }
 
@@ -576,7 +576,7 @@ module LatexCatsuitRefine
         Prop1: Source=1,
         Prop2: Source=2,
         Sound: ClothesRipping,
-        Time: 200.0,
+        Time: 500.0,
         Category: Latex Catsuit,
     }
 
@@ -595,7 +595,7 @@ module LatexCatsuitRefine
         Prop1: Source=1,
         Prop2: Source=2,
         Sound: ClothesRipping,
-        Time: 200.0,
+        Time: 500.0,
         Category: Latex Catsuit,
     }
 
@@ -614,7 +614,7 @@ module LatexCatsuitRefine
         Prop1: Source=1,
         Prop2: Source=2,
         Sound: ClothesRipping,
-        Time: 200.0,
+        Time: 500.0,
         Category: Latex Catsuit,
     }
 
@@ -633,7 +633,7 @@ module LatexCatsuitRefine
         Prop1: Source=1,
         Prop2: Source=2,
         Sound: ClothesRipping,
-        Time: 200.0,
+        Time: 500.0,
         Category: Latex Catsuit,
     }
 
@@ -652,7 +652,7 @@ module LatexCatsuitRefine
         Prop1: Source=1,
         Prop2: Source=2,
         Sound: ClothesRipping,
-        Time: 200.0,
+        Time: 500.0,
         Category: Latex Catsuit,
     }
 
@@ -671,7 +671,7 @@ module LatexCatsuitRefine
         Prop1: Source=1,
         Prop2: Source=2,
         Sound: ClothesRipping,
-        Time: 200.0,
+        Time: 500.0,
         Category: Latex Catsuit,
     }
 
