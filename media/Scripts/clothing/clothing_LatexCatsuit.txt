@@ -487,7 +487,7 @@ module LatexCatsuitRefine
         Type = Clothing,
         DisplayName = Latex Stockings Transparent,
         ClothingItem = Latex_Stockings_Nude,
-        BodyLocation = UnderwearExtra2, /* for wearing top of tights or stocking. */
+        BodyLocation = Socks, 
 		Bloodlocation = Shoes;LowerLegs;UpperLegs,
         Icon = Latex_Stockings_Nude,
         Weight = 0.2,
@@ -505,7 +505,7 @@ module LatexCatsuitRefine
         Type = Clothing,
         DisplayName = Latex Stockings Black,
         ClothingItem = Latex_Stockings_Black,
-        BodyLocation = UnderwearExtra2, /* for wearing top of tights or stocking. */
+        BodyLocation = Socks, 
 		Bloodlocation = Shoes;LowerLegs;UpperLegs,
         Icon = Latex_Stockings_Black,
         Weight = 0.2,
@@ -523,7 +523,7 @@ module LatexCatsuitRefine
         Type = Clothing,
         DisplayName = Latex Stockings Red,
         ClothingItem = Latex_Stockings_Red,
-        BodyLocation = UnderwearExtra2, /* for wearing top of tights or stocking. */
+        BodyLocation = Socks, 
 		Bloodlocation = Shoes;LowerLegs;UpperLegs,
         Icon = Latex_Stockings_Red,
         Weight = 0.2,
@@ -541,7 +541,7 @@ module LatexCatsuitRefine
         Type = Clothing,
         DisplayName = Latex Stockings H Transparent,
         ClothingItem = Latex_Stockings_H_Nude,
-        BodyLocation = UnderwearExtra2, /* for wearing top of tights or stocking. */
+        BodyLocation = Socks, 
 		Bloodlocation = Shoes;LowerLegs;UpperLegs,
         Icon = Latex_Stockings_Nude,
         Weight = 0.2,
@@ -559,7 +559,7 @@ module LatexCatsuitRefine
         Type = Clothing,
         DisplayName = Latex Stockings H Black,
         ClothingItem = Latex_Stockings_H_Black,
-        BodyLocation = UnderwearExtra2, /* for wearing top of tights or stocking. */
+        BodyLocation = Socks, 
 		Bloodlocation = Shoes;LowerLegs;UpperLegs,
         Icon = Latex_Stockings_Black,
         Weight = 0.2,
@@ -577,7 +577,7 @@ module LatexCatsuitRefine
         Type = Clothing,
         DisplayName = Latex Stockings H Red,
         ClothingItem = Latex_Stockings_H_Red,
-        BodyLocation = UnderwearExtra2, /* for wearing top of tights or stocking. */
+        BodyLocation = Socks, 
 		Bloodlocation = Shoes;LowerLegs;UpperLegs,
         Icon = Latex_Stockings_Red,
         Weight = 0.2,
