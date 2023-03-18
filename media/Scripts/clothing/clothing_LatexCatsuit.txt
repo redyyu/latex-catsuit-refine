@@ -31,6 +31,24 @@ module LatexCatsuitRefine
         WorldStaticModel = BoilerSuit_Ground,
 	}
 
+    item LatexCatsuitTightsBlack {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Latex Catsuit Tights,
+        ClothingItem = Latex_Catsuit_TightsBlack,
+        BodyLocation = Torso1Legs1,
+        BloodLocation = Trousers;UpperBody;LowerBody;UpperArms;LowerArms;Neck,
+        Icon = Latex_Catsuit_TightsBlack,
+        Weight = 0.5,
+        ScratchDefense = 10,
+        BiteDefense = 5,
+        Insulation = 0.1,
+        WindResistance = 0,
+		WaterResistance = 0,
+        CanHaveHoles = true,
+        WorldStaticModel = BoilerSuit_Ground,
+	}
+
 	item LatexCatsuitNude {
         DisplayCategory = Clothing,
         Type = Clothing,

@@ -2,9 +2,9 @@
 <clothingItem>
 	<m_MaleModel></m_MaleModel>
 	<m_FemaleModel></m_FemaleModel>
-	<m_GUID>452d96d9-d23e-4633-96c4-9608636ebd9a</m_GUID>
+	<m_GUID>92dba290-a61a-460a-9861-af8dc1e7877b</m_GUID>
 	<m_Static>false</m_Static>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
-	<m_BaseTextures>clothes\Latex_Catsuit_Fishnet</m_BaseTextures>
+	<m_BaseTextures>clothes\Latex_Catsuit_TightsBlack</m_BaseTextures>
 </clothingItem>

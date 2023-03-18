@@ -675,4 +675,40 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
+    recipe Make Latex Catsuit Fishnet {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        BlackFishnet=3,
+        RubberBand=8,
+        Thread=8,
+
+        Result: LatexCatsuitFishnet,
+        SkillRequired: Tailoring=8,
+        NeedToBeLearn: true,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 900.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Latex Catsuit Tights {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        TightsBlack=3,
+        RubberBand=8,
+        Thread=8,
+
+        Result: LatexCatsuitTightsBlack,
+        SkillRequired: Tailoring=8,
+        NeedToBeLearn: true,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 900.0,
+        Category: Latex Catsuit,
+    }
+
 }

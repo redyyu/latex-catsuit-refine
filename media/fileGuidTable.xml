@@ -212,9 +212,15 @@
 	</files>
 
 	<files>
-		<path>media/clothing/clothingitems/Latex_Catsuit_Fishnet.xml</path>
-		<guid>82d8018e-411a-4d2c-963a-566f6a23ff6e</guid>
+		<path>media/clothing/clothingItems/Latex_Catsuit_Fishnet.xml</path>
+		<guid>452d96d9-d23e-4633-96c4-9608636ebd9a</guid>
 	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Catsuit_TightsBlack.xml</path>
+		<guid>92dba290-a61a-460a-9861-af8dc1e7877b</guid>
+	</files>
+	
 
 
 	<!-- Vanilla Defaults -->

@@ -275,6 +275,7 @@
 			</subItems>
 		</m_items>
 	</m_FemaleOutfits>
+	
 	<m_FemaleOutfits>
 		<m_Name>LatexCatsuitGirlFull</m_Name>
 		<m_Guid>5adc5f2a-0b76-4723-b99e-277eb84a0179</m_Guid>
@@ -300,7 +301,11 @@
 		</m_items>
 		<m_items>
 			<!-- Latex_Catsuit_Fishnet -->
-			<itemGUID>82d8018e-411a-4d2c-963a-566f6a23ff6e</itemGUID>
+			<itemGUID>452d96d9-d23e-4633-96c4-9608636ebd9a</itemGUID>
+			<subItems>
+				<!-- Latex_Catsuit_TightsBlack -->
+				<itemGUID>92dba290-a61a-460a-9861-af8dc1e7877b</itemGUID>
+			</subItems>
 		</m_items>
 		<m_items>
 			<!-- Shoes_BlackBoots -->

@@ -5,6 +5,7 @@ MOD_NAME = "LatexCatsuitRefine";
 local ITEMS_WEIGHT = {
     [".LatexCatsuitMag"]=0.1,
     [".LatexCatsuitFishnet"]=1,
+    [".LatexCatsuitTightsBlack"]=1,
     [".LatexCatsuitNude"]=1,
     [".LatexCatsuitBlack"]=1,
     [".LatexCatsuitRed"]=1,
