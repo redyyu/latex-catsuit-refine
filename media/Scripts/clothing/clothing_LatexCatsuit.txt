@@ -13,14 +13,14 @@ module LatexCatsuitRefine
         WorldStaticModel = MagazineGround,
     }
 
-    item LatexCatsuitFullFishnet {
+    item LatexCatsuitFishnet {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Latex Catsuit Fishnet,
-        ClothingItem = Latex_Catsuit_Full_Fishnet,
+        ClothingItem = Latex_Catsuit_Fishnet,
         BodyLocation = Torso1Legs1,
         BloodLocation = Trousers;UpperBody;LowerBody;UpperArms;LowerArms;Neck,
-        Icon = Latex_Catsuit_Full_Fishnet,
+        Icon = Latex_Catsuit_Fishnet,
         Weight = 0.5,
         ScratchDefense = 10,
         BiteDefense = 5,
