@@ -211,6 +211,11 @@
 		<guid>f3aba4c7-6a3d-490d-a5eb-46d38ecc1509</guid>
 	</files>
 
+	<files>
+		<path>media/clothing/clothingitems/Latex_Catsuit_Full_Fishnet.xml</path>
+		<guid>94a7be88-bf8a-43c9-bf48-1b91903db19e</guid>
+	</files>
+
 
 	<!-- Vanilla Defaults -->
 	<files>

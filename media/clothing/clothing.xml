@@ -275,4 +275,40 @@
 			</subItems>
 		</m_items>
 	</m_FemaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>LatexCatsuitGirlFull</m_Name>
+		<m_Guid>5adc5f2a-0b76-4723-b99e-277eb84a0179</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		
+		<m_items>
+			<!-- Cuffs_Collar -->
+			<probability>0.4</probability>
+			<itemGUID>54d56acb-ab29-4f84-ad4f-591f9871b54c</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.2</probability>
+			<!-- Harness_Rope -->
+			<itemGUID>66a47611-1187-4f1f-b606-29600e3fa670</itemGUID>
+			<subItems>
+				<!-- Harness_W_Rope -->
+				<itemGUID>868a9dc2-f23b-4dbd-8e27-dd0a1e860170</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<!-- Latex_Catsuit_Full_Fishnet -->
+			<itemGUID>94a7be88-bf8a-43c9-bf48-1b91903db19e</itemGUID>
+		</m_items>
+		<m_items>
+			<!-- Shoes_BlackBoots -->
+			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
+			<subItems>
+				<!-- Shoes_RidingBoots -->
+				<itemGUID>09bc4da2-6038-4575-985b-c27b8dbfef6c</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
 </outfitManager>
