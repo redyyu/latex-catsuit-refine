@@ -306,6 +306,14 @@
 				<!-- Latex_Catsuit_TightsBlack -->
 				<itemGUID>92dba290-a61a-460a-9861-af8dc1e7877b</itemGUID>
 			</subItems>
+			<subItems>
+				<!-- Latex_Catsuit_TightsBlackSemiTrans -->
+				<itemGUID>509e20a4-a8c7-4e9f-8cc7-85477948af22</itemGUID>
+			</subItems>
+			<subItems>
+				<!-- Latex_Catsuit_TightsBlackTrans -->
+				<itemGUID>596817ef-23c7-4172-9fd7-c8fdb71d58cb</itemGUID>
+			</subItems>
 		</m_items>
 		<m_items>
 			<!-- Shoes_BlackBoots -->

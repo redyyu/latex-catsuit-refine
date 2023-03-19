@@ -221,6 +221,15 @@
 		<guid>92dba290-a61a-460a-9861-af8dc1e7877b</guid>
 	</files>
 	
+	<files>
+		<path>media/clothing/clothingItems/Latex_Catsuit_TightsBlackTrans.xml</path>
+		<guid>596817ef-23c7-4172-9fd7-c8fdb71d58cb</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Catsuit_TightsBlackSemiTrans.xml</path>
+		<guid>509e20a4-a8c7-4e9f-8cc7-85477948af22</guid>
+	</files>
 
 
 	<!-- Vanilla Defaults -->

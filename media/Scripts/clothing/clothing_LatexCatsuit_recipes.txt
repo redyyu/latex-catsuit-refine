@@ -4,7 +4,7 @@ module LatexCatsuitRefine
 	    Base,
     }
 
-    recipe Make Latex Catsuit Transparent {
+    recipe Make Latex Catsuit Nude {
         keep Scissors,
         keep Needle/SutureNeedle,
         LeatherStrips=8,
@@ -51,7 +51,7 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
-    recipe Make Latex Hood Transparent {
+    recipe Make Latex Hood Nude {
         keep Scissors,
         keep Needle/SutureNeedle,
         LeatherStrips=3,
@@ -98,7 +98,7 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
-    recipe Make Latex Leotard Transparent {
+    recipe Make Latex Leotard Nude {
         keep Scissors,
         keep Needle/SutureNeedle,
         LeatherStrips=3,
@@ -145,7 +145,7 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
-    recipe Make Latex Leotard H Transparent {
+    recipe Make Latex Leotard H Nude {
         keep Scissors,
         keep Needle/SutureNeedle,
         LeatherStrips=3,
@@ -192,7 +192,7 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
-    recipe Make Latex Leotard S Transparent {
+    recipe Make Latex Leotard S Nude {
         keep Scissors,
         keep Needle/SutureNeedle,
         LeatherStrips=3,
@@ -239,7 +239,7 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
-    recipe Make Latex Bolero Transparent {
+    recipe Make Latex Bolero Nude {
         keep Scissors,
         keep Needle/SutureNeedle,
         LeatherStrips=3,
@@ -286,7 +286,7 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
-    recipe Make Latex Pants Transparent {
+    recipe Make Latex Pants Nude {
         keep Scissors,
         keep Needle/SutureNeedle,
         LeatherStrips=4,
@@ -333,7 +333,7 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
-    recipe Make Open Crotch Latex Pants Transparent {
+    recipe Make Open Crotch Latex Pants Nude {
         keep Scissors,
         keep Needle/SutureNeedle,
         LeatherStrips=4,
@@ -420,7 +420,7 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
-    recipe Make Latex Stockings Transparent {
+    recipe Make Latex Stockings Nude {
         keep Scissors,
         keep Needle/SutureNeedle,
         LeatherStrips=4,
@@ -467,7 +467,7 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
-    recipe Make Latex Stockings H Transparent {
+    recipe Make Latex Stockings H Nude {
         keep Scissors,
         keep Needle/SutureNeedle,
         LeatherStrips=4,
@@ -514,7 +514,7 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
-    recipe Make Latex Gloves Transparent {
+    recipe Make Latex Gloves Nude {
         keep Scissors,
         keep Needle/SutureNeedle,
         LeatherStrips=4,
@@ -701,6 +701,42 @@ module LatexCatsuitRefine
         Thread=8,
 
         Result: LatexCatsuitTightsBlack,
+        SkillRequired: Tailoring=8,
+        NeedToBeLearn: true,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 900.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Latex Catsuit Tights Semi Transparent {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        TightsBlackSemiTrans=3,
+        RubberBand=8,
+        Thread=8,
+
+        Result: LatexCatsuitTightsBlackSemiTrans,
+        SkillRequired: Tailoring=8,
+        NeedToBeLearn: true,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 900.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Latex Catsuit Tights Transparent {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        TightsBlackTrans=3,
+        RubberBand=8,
+        Thread=8,
+
+        Result: LatexCatsuitTightsBlackTrans,
         SkillRequired: Tailoring=8,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
