@@ -8,7 +8,7 @@ module LatexCatsuitRefine
         keep Scissors,
         keep Needle/SutureNeedle,
         LeatherStrips=8,
-        RubberBand=8,
+        RubberBand=6,
         Thread=8,
         Tarp=4,
 
@@ -679,7 +679,7 @@ module LatexCatsuitRefine
         keep Scissors,
         keep Needle/SutureNeedle,
         BlackFishnet=3,
-        RubberBand=8,
+        RubberBand=4,
         Thread=8,
 
         Result: LatexCatsuitFishnet,
@@ -697,7 +697,7 @@ module LatexCatsuitRefine
         keep Scissors,
         keep Needle/SutureNeedle,
         TightsBlack=3,
-        RubberBand=8,
+        RubberBand=4,
         Thread=8,
 
         Result: LatexCatsuitTightsBlack,
@@ -715,7 +715,7 @@ module LatexCatsuitRefine
         keep Scissors,
         keep Needle/SutureNeedle,
         TightsBlackSemiTrans=3,
-        RubberBand=8,
+        RubberBand=4,
         Thread=8,
 
         Result: LatexCatsuitTightsBlackSemiTrans,
@@ -733,7 +733,7 @@ module LatexCatsuitRefine
         keep Scissors,
         keep Needle/SutureNeedle,
         TightsBlackTrans=3,
-        RubberBand=8,
+        RubberBand=4,
         Thread=8,
 
         Result: LatexCatsuitTightsBlackTrans,
