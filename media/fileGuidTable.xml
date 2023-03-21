@@ -7,6 +7,32 @@
 	</files>
 
 	<files>
+		<path>media/clothing/clothingItems/Gloves_LeatherGlovesRed.xml</path>
+		<guid>e966b94e-c889-4118-8152-0b5e92690cc5</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Shoes_RedRidingBoots.xml</path>
+		<guid>ec0e6051-c718-49d8-9b65-5bc35b703c58</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Bag_Red.xml</path>
+		<guid>e2be3ac2-a110-413e-b698-6cc17997f8e0</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Bag_Red_RHand.xml</path>
+		<guid>aff6fae9-a238-4cce-97c2-22cfc6f3db87</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Bag_Red_RHand.xml</path>
+		<guid>ee9fc1c2-b08a-4de8-9152-66d7707bf17e</guid>
+	</files>
+	
+
+	<files>
 		<path>media/clothing/clothingItems/Harness_Black.xml</path>
 		<guid>6f1f17c3-d531-47aa-be84-2be8ad318f32</guid>
 	</files>

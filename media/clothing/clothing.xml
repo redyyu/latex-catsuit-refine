@@ -215,6 +215,10 @@
 			<!-- Latex_Gloves_Red -->
 			<probability>0.6</probability>
 			<itemGUID>c63394b8-105f-43f9-9210-457e80616705</itemGUID>
+			<subItems>
+				<!-- Gloves_LeatherGlovesRed -->
+				<itemGUID>e966b94e-c889-4118-8152-0b5e92690cc5</itemGUID>
+			</subItems>
 		</m_items>
 		<m_items>
 			<!-- Latex_Hood_Red -->
@@ -272,6 +276,10 @@
 			<subItems>
 				<!-- Shoes_RidingBoots -->
 				<itemGUID>09bc4da2-6038-4575-985b-c27b8dbfef6c</itemGUID>
+			</subItems>
+			<subItems>
+				<!-- Shoes_RedRidingBoots -->
+				<itemGUID>ec0e6051-c718-49d8-9b65-5bc35b703c58</itemGUID>
 			</subItems>
 		</m_items>
 	</m_FemaleOutfits>

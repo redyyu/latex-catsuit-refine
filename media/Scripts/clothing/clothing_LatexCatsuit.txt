@@ -831,4 +831,62 @@ module LatexCatsuitRefine
         WorldStaticModel = Choker_Ground,
 	}
 
+    item Shoes_RedRidingBoots {
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Riding Boots,
+		ClothingItem = Shoes_RedRidingBoots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = RedBootsRiding,
+		StompPower = 2.2,
+		ConditionLowerChanceOneIn = 15,
+        ConditionMax = 27,
+        RunSpeedModifier = 0.9,
+        RemoveOnBroken = false,
+        ScratchDefense = 100,
+        BiteDefense = 100,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        WaterResistance = 0.45,
+        WorldStaticModel = Boots_Ground,
+	}
+
+    item Gloves_LeatherGlovesRed {
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Leather Gloves,
+		ClothingItem = Gloves_LeatherGlovesRed,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = GlovesLeatherRed,
+		ScratchDefense = 30,
+        BiteDefense = 15,
+        Weight = 0.1,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        FabricType = Leather,
+        WorldStaticModel = Gloves_Ground,
+	}
+
+    item Bag_LatexBagRed {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Duffel Bag,
+        ClothingItem = Latex_Bag_Red,
+        CanBeEquipped = Back,
+        WeightReduction = 85,
+        Weight = 1.5,
+        Capacity = 25,
+        Icon = Latex_Bag_Red,
+        OpenSound = OpenBag,
+        CloseSound = CloseBag,
+        PutInSound = PutItemInBag,
+        RunSpeedModifier = 0.98,
+        CanHaveHoles = false,
+        ReplaceInSecondHand = Latex_Bag_Red_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Latex_Bag_Red_RHand holdingbagright,
+        WorldStaticModel = DuffelBag_Ground,
+    }
+
 }
