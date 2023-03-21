@@ -249,6 +249,15 @@
 			</subItems>
 		</m_items>
 		<m_items>
+			<!-- Latex_Bag_Red -->
+			<probability>0.2</probability>
+			<itemGUID>e2be3ac2-a110-413e-b698-6cc17997f8e0</itemGUID>
+			<subItems>
+				<!-- Latex_Bag_Black -->
+				<itemGUID>06e2878e-094c-4069-8c32-7c46d234f4b1</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
 			<!-- Latex_Pants_Red -->
 			<probability>0.5</probability>
 			<itemGUID>1c872d9e-5408-4a80-8f0d-68ad2759e944</itemGUID>

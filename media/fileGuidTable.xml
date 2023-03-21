@@ -30,6 +30,21 @@
 		<path>media/clothing/clothingItems/Latex_Bag_Red_RHand.xml</path>
 		<guid>ee9fc1c2-b08a-4de8-9152-66d7707bf17e</guid>
 	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Bag_Black.xml</path>
+		<guid>06e2878e-094c-4069-8c32-7c46d234f4b1</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Bag_Black_RHand.xml</path>
+		<guid>4984df45-b18d-4be1-8f40-578022774a12</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Bag_Black_RHand.xml</path>
+		<guid>ec84be81-b659-444d-96ff-79e685ccbcf2</guid>
+	</files>
 	
 
 	<files>

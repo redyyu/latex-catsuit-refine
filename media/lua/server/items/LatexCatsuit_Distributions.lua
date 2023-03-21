@@ -50,6 +50,10 @@ local ITEMS_WEIGHT = {
     [".HarnessWBlack"]=1,
     [".HarnessWRed"]=1,
     [".CuffsCollar"]=1,
+    [".Shoes_RedRidingBoots"]=1,
+    [".Gloves_LeatherGlovesRed"]=1,
+    [".Bag_LatexBag"]=1,
+    [".Bag_LatexBagRed"]=1,
 }
 
 
@@ -75,9 +79,9 @@ local function insertDistributionList(table_obj, ITEMS_WEIGHT, rate)
 end
 
 
-insertDistributionList(ProceduralDistributions.list.BedroomDresser, ITEMS_WEIGHT, 0.1);
-insertDistributionList(ProceduralDistributions.list.WardrobeWoman, ITEMS_WEIGHT, 0.1);
-insertDistributionList(ProceduralDistributions.list.StripClubDressers, ITEMS_WEIGHT, 15);
+insertDistributionList(ProceduralDistributions.list.BedroomDresser, ITEMS_WEIGHT, 0.05);
+insertDistributionList(ProceduralDistributions.list.WardrobeWoman, ITEMS_WEIGHT, 0.05);
+insertDistributionList(ProceduralDistributions.list.StripClubDressers, ITEMS_WEIGHT, 10);
 
 insertTable(ProceduralDistributions.list["CrateBooks"], ".LatexCatsuitMag", 0.01);
 insertTable(ProceduralDistributions.list["BookstoreMisc"], ".LatexCatsuitMag", 0.01);

@@ -13,6 +13,8 @@ local group = BodyLocations.getGroup("Human")
 group:getOrCreateLocation("Harness");
 
 
+group:getOrCreateLocation("Harness"):setAttachmentName("harness_rig_light");
+
 
 -- DONT NEED HIDDEN FROM MODELED OUTER BODY LOCATIONS.
 

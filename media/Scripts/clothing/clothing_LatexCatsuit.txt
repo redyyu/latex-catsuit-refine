@@ -727,11 +727,7 @@ module LatexCatsuitRefine
         BodyLocation = Harness,
         Icon = Harness_Rope,
         Weight = 0.2,
-        ScratchDefense = 0,
-        BiteDefense = 0,
-        Insulation = 0,
-        WindResistance = 0,
-        CanHaveHoles = false,
+        AttachmentsProvided = HarnessRig,
         WorldStaticModel = Leash,
 	}
 
@@ -743,11 +739,7 @@ module LatexCatsuitRefine
         BodyLocation = Harness,
         Icon = Harness_Black,
         Weight = 0.2,
-        ScratchDefense = 0,
-        BiteDefense = 0,
-        Insulation = 0,
-        WindResistance = 0,
-        CanHaveHoles = false,
+        AttachmentsProvided = HarnessRig,
         WorldStaticModel = Leash,
 	}
     
@@ -759,11 +751,7 @@ module LatexCatsuitRefine
         BodyLocation = Harness,
         Icon = Harness_Red,
         Weight = 0.2,
-        ScratchDefense = 0,
-        BiteDefense = 0,
-        Insulation = 0,
-        WindResistance = 0,
-        CanHaveHoles = false,
+        AttachmentsProvided = HarnessRig,
         WorldStaticModel = Leash,
 	}
 
@@ -775,11 +763,7 @@ module LatexCatsuitRefine
         BodyLocation = Harness,
         Icon = Harness_Rope,
         Weight = 0.2,
-        ScratchDefense = 0,
-        BiteDefense = 0,
-        Insulation = 0,
-        WindResistance = 0,
-        CanHaveHoles = false,
+        AttachmentsProvided = HarnessRig,
         WorldStaticModel = Leash,
 	}
 
@@ -791,11 +775,7 @@ module LatexCatsuitRefine
         BodyLocation = Harness,
         Icon = Harness_Black,
         Weight = 0.2,
-        ScratchDefense = 0,
-        BiteDefense = 0,
-        Insulation = 0,
-        WindResistance = 0,
-        CanHaveHoles = false,
+        AttachmentsProvided = HarnessRig,
         WorldStaticModel = Leash,
 	}
     
@@ -807,11 +787,7 @@ module LatexCatsuitRefine
         BodyLocation = Harness,
         Icon = Harness_Red,
         Weight = 0.2,
-        ScratchDefense = 0,
-        BiteDefense = 0,
-        Insulation = 0,
-        WindResistance = 0,
-        CanHaveHoles = false,
+        AttachmentsProvided = HarnessRig,
         WorldStaticModel = Leash,
 	}
 
@@ -868,6 +844,26 @@ module LatexCatsuitRefine
         FabricType = Leather,
         WorldStaticModel = Gloves_Ground,
 	}
+
+    item Bag_LatexBagBlack {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Duffel Bag,
+        ClothingItem = Latex_Bag_Black,
+        CanBeEquipped = Back,
+        WeightReduction = 85,
+        Weight = 1.5,
+        Capacity = 25,
+        Icon = Latex_Bag_Black,
+        OpenSound = OpenBag,
+        CloseSound = CloseBag,
+        PutInSound = PutItemInBag,
+        RunSpeedModifier = 0.98,
+        CanHaveHoles = false,
+        ReplaceInSecondHand = Latex_Bag_Black_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Latex_Bag_Black_RHand holdingbagright,
+        WorldStaticModel = DuffelBag_Ground,
+    }
 
     item Bag_LatexBagRed {
         DisplayCategory = Bag,

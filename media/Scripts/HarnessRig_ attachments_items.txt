@@ -1,0 +1,32 @@
+module Base
+{
+	model FemaleBody
+	{
+		mesh = Skinned/FemaleBody,
+
+		
+		attachment chest_light
+		{
+			offset = 0.1700 0.0600 0.0600,
+			rotate = 180.0000 90.0000 -30.0000,
+			bone = Bip01_Spine,
+		}
+
+	}
+
+
+	model MaleBody
+	{
+		mesh = Skinned/MaleBody,
+		
+	
+		attachment chest_light
+		{
+			offset = 0.1700 0.0600 0.0600,
+			rotate = 180.0000 90.0000 -30.0000,
+			bone = Bip01_Spine,
+		}
+	
+
+	}
+}
