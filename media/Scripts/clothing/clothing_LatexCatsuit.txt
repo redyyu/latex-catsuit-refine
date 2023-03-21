@@ -7,7 +7,7 @@ module LatexCatsuitRefine
         Type = Literature,
         DisplayName	= The Cat Woman,
         Icon = MagazineLatexCatsuitMag,
-        TeachedRecipes = Make Latex Catsuit Nude;Make Latex Hood Nude;Make Latex Leotard Nude;Make Latex Leotard H Nude;Make Latex Leotard S Nude;Make Latex Bolero Nude;Make Latex Pants Nude;Make Open Crotch Latex Pants Nude;Make Latex Skirt Black;Make Latex Skirt Red;Make Latex Stockings Nude;Make Latex Stockings H Nude;Make Latex Gloves Nude;Make Harness Rope;Make Harness Black;Make Harness Red;Make Harness W Rope;Make Harness W Black;Make Harness W Red;Make Latex Catsuit Tights Transparent;Make Latex Catsuit Tights Semi Transparent;Make Latex Catsuit Tights,
+        TeachedRecipes = Make Latex Catsuit Nude;Make Latex Hood Nude;Make Latex Leotard Nude;Make Latex Leotard H Nude;Make Latex Leotard S Nude;Make Latex Bolero Nude;Make Latex Pants Nude;Make Open Crotch Latex Pants Nude;Make Latex Skirt Black;Make Latex Skirt Red;Make Latex Stockings Nude;Make Latex Stockings H Nude;Make Latex Gloves Nude;Make Harness Rope;Make Harness Black;Make Harness Red;Make Harness W Rope;Make Harness W Black;Make Harness W Red;Make Latex Catsuit Tights Transparent;Make Latex Catsuit Tights Semi Transparent;Make Latex Catsuit Tights;Make Latex Bag Black;Make Latex Bag Red,
         ReplaceOnUse = LatexCatsuitMag,
         StaticModel = Magazine,
         WorldStaticModel = MagazineGround,
@@ -728,6 +728,7 @@ module LatexCatsuitRefine
         Icon = Harness_Rope,
         Weight = 0.2,
         AttachmentsProvided = HarnessRig,
+        CanHaveHoles = false,
         WorldStaticModel = Leash,
 	}
 
@@ -740,6 +741,7 @@ module LatexCatsuitRefine
         Icon = Harness_Black,
         Weight = 0.2,
         AttachmentsProvided = HarnessRig,
+        CanHaveHoles = false,
         WorldStaticModel = Leash,
 	}
     
@@ -752,6 +754,7 @@ module LatexCatsuitRefine
         Icon = Harness_Red,
         Weight = 0.2,
         AttachmentsProvided = HarnessRig,
+        CanHaveHoles = false,
         WorldStaticModel = Leash,
 	}
 
@@ -764,6 +767,7 @@ module LatexCatsuitRefine
         Icon = Harness_Rope,
         Weight = 0.2,
         AttachmentsProvided = HarnessRig,
+        CanHaveHoles = false,
         WorldStaticModel = Leash,
 	}
 
@@ -776,6 +780,7 @@ module LatexCatsuitRefine
         Icon = Harness_Black,
         Weight = 0.2,
         AttachmentsProvided = HarnessRig,
+        CanHaveHoles = false,
         WorldStaticModel = Leash,
 	}
     
@@ -788,6 +793,7 @@ module LatexCatsuitRefine
         Icon = Harness_Red,
         Weight = 0.2,
         AttachmentsProvided = HarnessRig,
+        CanHaveHoles = false,
         WorldStaticModel = Leash,
 	}
 
@@ -810,7 +816,7 @@ module LatexCatsuitRefine
     item Shoes_RedRidingBoots {
 	    DisplayCategory = Clothing,
 		Type = Clothing,
-		DisplayName = Riding Boots,
+		DisplayName = Red Riding Boots,
 		ClothingItem = Shoes_RedRidingBoots,
 		BodyLocation = Shoes,
 		BloodLocation = Shoes,
@@ -831,7 +837,7 @@ module LatexCatsuitRefine
     item Gloves_LeatherGlovesRed {
 	    DisplayCategory = Accessory,
 		Type = Clothing,
-		DisplayName = Leather Gloves,
+		DisplayName = Red Leather Gloves,
 		ClothingItem = Gloves_LeatherGlovesRed,
 		BodyLocation = Hands,
 		BloodLocation = Hands,
@@ -848,7 +854,7 @@ module LatexCatsuitRefine
     item Bag_LatexBagBlack {
         DisplayCategory = Bag,
         Type = Container,
-        DisplayName = Duffel Bag,
+        DisplayName = Latex Bag Black,
         ClothingItem = Latex_Bag_Black,
         CanBeEquipped = Back,
         WeightReduction = 85,
@@ -868,7 +874,7 @@ module LatexCatsuitRefine
     item Bag_LatexBagRed {
         DisplayCategory = Bag,
         Type = Container,
-        DisplayName = Duffel Bag,
+        DisplayName = Latex Bag Red,
         ClothingItem = Latex_Bag_Red,
         CanBeEquipped = Back,
         WeightReduction = 85,

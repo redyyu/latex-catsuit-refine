@@ -78,6 +78,15 @@
 			</subItems>
 		</m_items>
 		<m_items>
+			<!-- Latex_Bag_Red -->
+			<probability>0.2</probability>
+			<itemGUID>e2be3ac2-a110-413e-b698-6cc17997f8e0</itemGUID>
+			<subItems>
+				<!-- Latex_Bag_Black -->
+				<itemGUID>06e2878e-094c-4069-8c32-7c46d234f4b1</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
 			<!-- Latex_Stockings_Black -->
 			<probability>0.8</probability>
 			<itemGUID>526929cb-a86a-442c-b916-8f5553cb5b11</itemGUID>
@@ -159,6 +168,15 @@
 			<subItems>
 				<!-- Latex_Pants_Open_Nude -->
 				<itemGUID>53ef7282-1e8f-4e73-9093-2fe17dd284be</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<!-- Latex_Bag_Red -->
+			<probability>0.2</probability>
+			<itemGUID>e2be3ac2-a110-413e-b698-6cc17997f8e0</itemGUID>
+			<subItems>
+				<!-- Latex_Bag_Black -->
+				<itemGUID>06e2878e-094c-4069-8c32-7c46d234f4b1</itemGUID>
 			</subItems>
 		</m_items>
 		<m_items>
@@ -330,6 +348,15 @@
 			<subItems>
 				<!-- Latex_Catsuit_TightsBlackTrans -->
 				<itemGUID>596817ef-23c7-4172-9fd7-c8fdb71d58cb</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<!-- Latex_Bag_Red -->
+			<probability>0.2</probability>
+			<itemGUID>e2be3ac2-a110-413e-b698-6cc17997f8e0</itemGUID>
+			<subItems>
+				<!-- Latex_Bag_Black -->
+				<itemGUID>06e2878e-094c-4069-8c32-7c46d234f4b1</itemGUID>
 			</subItems>
 		</m_items>
 		<m_items>

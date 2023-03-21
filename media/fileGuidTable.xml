@@ -27,7 +27,7 @@
 	</files>
 
 	<files>
-		<path>media/clothing/clothingItems/Latex_Bag_Red_RHand.xml</path>
+		<path>media/clothing/clothingItems/Latex_Bag_Red_LHand.xml</path>
 		<guid>ee9fc1c2-b08a-4de8-9152-66d7707bf17e</guid>
 	</files>
 
@@ -42,7 +42,7 @@
 	</files>
 
 	<files>
-		<path>media/clothing/clothingItems/Latex_Bag_Black_RHand.xml</path>
+		<path>media/clothing/clothingItems/Latex_Bag_Black_LHand.xml</path>
 		<guid>ec84be81-b659-444d-96ff-79e685ccbcf2</guid>
 	</files>
 	
