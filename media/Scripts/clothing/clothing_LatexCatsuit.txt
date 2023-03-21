@@ -7,7 +7,7 @@ module LatexCatsuitRefine
         Type = Literature,
         DisplayName	= The Cat Woman,
         Icon = MagazineLatexCatsuitMag,
-        TeachedRecipes = Make Latex Catsuit Nude;Make Latex Hood Nude;Make Latex Leotard Nude;Make Latex Leotard H Nude;Make Latex Leotard S Nude;Make Latex Bolero Nude;Make Latex Pants Nude;Make Open Crotch Latex Pants Nude;Make Latex Skirt Black;Make Latex Skirt Red;Make Latex Stockings Nude;Make Latex Stockings H Nude;Make Latex Gloves Nude;Make Harness Rope;Make Harness Black;Make Harness Red;Make Harness W Rope;Make Harness W Black;Make Harness W Red;Make Latex Catsuit Tights Transparent;Make Latex Catsuit Tights Semi Transparent;Make Latex Catsuit Tights;Make Latex Bag Black;Make Latex Bag Red,
+        TeachedRecipes = Make Latex Catsuit Nude;Make Latex Hood Nude;Make Latex Leotard Nude;Make Latex Leotard H Nude;Make Latex Leotard S Nude;Make Latex Bolero Nude;Make Latex Pants Nude;Make Open Crotch Latex Pants Nude;Make Latex Skirt Black;Make Latex Skirt Red;Make Latex Stockings Nude;Make Latex Stockings H Nude;Make Latex Gloves Nude;Make Harness Rope;Make Harness Black;Make Harness Red;Make Harness W Rope;Make Harness W Black;Make Harness W Red;Make Latex Catsuit Tights Transparent;Make Latex Catsuit Tights Semi Transparent;Make Latex Catsuit Tights;Make Black Latex Bag;Make Red Latex Bag,
         ReplaceOnUse = LatexCatsuitMag,
         StaticModel = Magazine,
         WorldStaticModel = MagazineGround,
@@ -100,6 +100,7 @@ module LatexCatsuitRefine
         WindResistance = 0.15,
 		WaterResistance = 1,
         CanHaveHoles = true,
+        RunSpeedModifier = 1.05,
         WorldStaticModel = BoilerSuit_Ground,
 	}
 
@@ -118,6 +119,7 @@ module LatexCatsuitRefine
         WindResistance = 0.15,
 		WaterResistance = 1,
         CanHaveHoles = true,
+        RunSpeedModifier = 1.05,
         WorldStaticModel = BoilerSuit_Ground,
 	}
 
@@ -136,6 +138,7 @@ module LatexCatsuitRefine
         WindResistance = 0.15,
 		WaterResistance = 1,
         CanHaveHoles = true,
+        RunSpeedModifier = 1.05,
         WorldStaticModel = BoilerSuit_Ground,
 	}
 
@@ -729,6 +732,7 @@ module LatexCatsuitRefine
         Weight = 0.2,
         AttachmentsProvided = HarnessRig,
         CanHaveHoles = false,
+        RunSpeedModifier = 1.15,
         WorldStaticModel = Leash,
 	}
 
@@ -742,6 +746,7 @@ module LatexCatsuitRefine
         Weight = 0.2,
         AttachmentsProvided = HarnessRig,
         CanHaveHoles = false,
+        RunSpeedModifier = 1.15,
         WorldStaticModel = Leash,
 	}
     
@@ -755,6 +760,7 @@ module LatexCatsuitRefine
         Weight = 0.2,
         AttachmentsProvided = HarnessRig,
         CanHaveHoles = false,
+        RunSpeedModifier = 1.15,
         WorldStaticModel = Leash,
 	}
 
@@ -768,6 +774,7 @@ module LatexCatsuitRefine
         Weight = 0.2,
         AttachmentsProvided = HarnessRig,
         CanHaveHoles = false,
+        RunSpeedModifier = 1.15,
         WorldStaticModel = Leash,
 	}
 
@@ -781,6 +788,7 @@ module LatexCatsuitRefine
         Weight = 0.2,
         AttachmentsProvided = HarnessRig,
         CanHaveHoles = false,
+        RunSpeedModifier = 1.15,
         WorldStaticModel = Leash,
 	}
     
@@ -794,6 +802,7 @@ module LatexCatsuitRefine
         Weight = 0.2,
         AttachmentsProvided = HarnessRig,
         CanHaveHoles = false,
+        RunSpeedModifier = 1.15,
         WorldStaticModel = Leash,
 	}
 
@@ -854,7 +863,7 @@ module LatexCatsuitRefine
     item Bag_LatexBagBlack {
         DisplayCategory = Bag,
         Type = Container,
-        DisplayName = Latex Bag Black,
+        DisplayName = Black Latex Bag,
         ClothingItem = Latex_Bag_Black,
         CanBeEquipped = Back,
         WeightReduction = 85,
@@ -864,7 +873,7 @@ module LatexCatsuitRefine
         OpenSound = OpenBag,
         CloseSound = CloseBag,
         PutInSound = PutItemInBag,
-        RunSpeedModifier = 0.98,
+        RunSpeedModifier = 0.95,
         CanHaveHoles = false,
         ReplaceInSecondHand = Latex_Bag_Black_LHand holdingbagleft,
         ReplaceInPrimaryHand = Latex_Bag_Black_RHand holdingbagright,
@@ -874,7 +883,7 @@ module LatexCatsuitRefine
     item Bag_LatexBagRed {
         DisplayCategory = Bag,
         Type = Container,
-        DisplayName = Latex Bag Red,
+        DisplayName = Red Latex Bag,
         ClothingItem = Latex_Bag_Red,
         CanBeEquipped = Back,
         WeightReduction = 85,
@@ -884,7 +893,7 @@ module LatexCatsuitRefine
         OpenSound = OpenBag,
         CloseSound = CloseBag,
         PutInSound = PutItemInBag,
-        RunSpeedModifier = 0.98,
+        RunSpeedModifier = 0.95,
         CanHaveHoles = false,
         ReplaceInSecondHand = Latex_Bag_Red_LHand holdingbagleft,
         ReplaceInPrimaryHand = Latex_Bag_Red_RHand holdingbagright,

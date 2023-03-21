@@ -576,7 +576,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Red Riding Boots {
-        Shoes_RidingBoots/Shoes_RidingBoots,
+        Shoes_RidingBoots,
         PaintRed,
         
         Result: Shoes_RedRidingBoots,
@@ -775,7 +775,7 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
-    recipe Make Latex Bag Black {
+    recipe Make Black Latex Bag {
         keep Scissors,
         keep Needle/SutureNeedle,
         LeatherStrips=6,
@@ -795,7 +795,7 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
-    recipe Make Latex Bag Red {
+    recipe Make Red Latex Bag {
         keep Scissors,
         keep Needle/SutureNeedle,
         LeatherStrips=6,
