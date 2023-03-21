@@ -7,7 +7,7 @@ module Base
 		
 		attachment harness_rig_light
 		{
-			offset = 0.1700 0.0 0.0600,
+			offset = 0.1200 0.0000 0.0600,
 			rotate = 180.0000 90.0000 -30.0000,
 			bone = Bip01_Spine,
 		}
@@ -22,7 +22,7 @@ module Base
 	
 		attachment harness_rig_light
 		{
-			offset = 0.1700 0.0 0.0600,
+			offset = 0.1200 0.0000 0.0600,
 			rotate = 180.0000 90.0000 -30.0000,
 			bone = Bip01_Spine,
 		}
