@@ -100,7 +100,6 @@ module LatexCatsuitRefine
         WindResistance = 0.15,
 		WaterResistance = 1,
         CanHaveHoles = true,
-        RunSpeedModifier = 1.05,
         WorldStaticModel = BoilerSuit_Ground,
 	}
 
@@ -119,7 +118,6 @@ module LatexCatsuitRefine
         WindResistance = 0.15,
 		WaterResistance = 1,
         CanHaveHoles = true,
-        RunSpeedModifier = 1.05,
         WorldStaticModel = BoilerSuit_Ground,
 	}
 
@@ -138,7 +136,6 @@ module LatexCatsuitRefine
         WindResistance = 0.15,
 		WaterResistance = 1,
         CanHaveHoles = true,
-        RunSpeedModifier = 1.05,
         WorldStaticModel = BoilerSuit_Ground,
 	}
 
@@ -729,10 +726,10 @@ module LatexCatsuitRefine
         ClothingItem = Harness_Rope,
         BodyLocation = Harness,
         Icon = Harness_Rope,
-        Weight = 0.2,
+        Weight = 0.1,
         AttachmentsProvided = HarnessRig,
         CanHaveHoles = false,
-        RunSpeedModifier = 1.15,
+        RunSpeedModifier = 1.2,
         WorldStaticModel = Leash,
 	}
 
@@ -743,10 +740,10 @@ module LatexCatsuitRefine
         ClothingItem = Harness_Black,
         BodyLocation = Harness,
         Icon = Harness_Black,
-        Weight = 0.2,
+        Weight = 0.1,
         AttachmentsProvided = HarnessRig,
         CanHaveHoles = false,
-        RunSpeedModifier = 1.15,
+        RunSpeedModifier = 1.2,
         WorldStaticModel = Leash,
 	}
     
@@ -757,10 +754,10 @@ module LatexCatsuitRefine
         ClothingItem = Harness_Red,
         BodyLocation = Harness,
         Icon = Harness_Red,
-        Weight = 0.2,
+        Weight = 0.1,
         AttachmentsProvided = HarnessRig,
         CanHaveHoles = false,
-        RunSpeedModifier = 1.15,
+        RunSpeedModifier = 1.2,
         WorldStaticModel = Leash,
 	}
 
@@ -771,10 +768,10 @@ module LatexCatsuitRefine
         ClothingItem = Harness_W_Rope,
         BodyLocation = Harness,
         Icon = Harness_Rope,
-        Weight = 0.2,
+        Weight = 0.1,
         AttachmentsProvided = HarnessRig,
         CanHaveHoles = false,
-        RunSpeedModifier = 1.15,
+        RunSpeedModifier = 1.2,
         WorldStaticModel = Leash,
 	}
 
@@ -785,10 +782,10 @@ module LatexCatsuitRefine
         ClothingItem = Harness_W_Black,
         BodyLocation = Harness,
         Icon = Harness_Black,
-        Weight = 0.2,
+        Weight = 0.1,
         AttachmentsProvided = HarnessRig,
         CanHaveHoles = false,
-        RunSpeedModifier = 1.15,
+        RunSpeedModifier = 1.2,
         WorldStaticModel = Leash,
 	}
     
@@ -799,10 +796,10 @@ module LatexCatsuitRefine
         ClothingItem = Harness_W_Red,
         BodyLocation = Harness,
         Icon = Harness_Red,
-        Weight = 0.2,
+        Weight = 0.1,
         AttachmentsProvided = HarnessRig,
         CanHaveHoles = false,
-        RunSpeedModifier = 1.15,
+        RunSpeedModifier = 1.2,
         WorldStaticModel = Leash,
 	}
 
