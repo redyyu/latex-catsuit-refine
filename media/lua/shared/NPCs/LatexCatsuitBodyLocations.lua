@@ -6,6 +6,9 @@ group:getOrCreateLocation("Harness")
 
 local groupAttached = AttachedLocations.getGroup("Human")
 groupAttached:getOrCreateLocation("Harness Rig Light"):setAttachmentName("harness_rig_light")
+groupAttached:getOrCreateLocation("Harness Rig Holster"):setAttachmentName("harness_rig_holster")
+groupAttached:getOrCreateLocation("Harness Mag Left"):setAttachmentName("harness_mag_left")
+groupAttached:getOrCreateLocation("Harness Mag Right"):setAttachmentName("harness_mag_right")
 
 
 -- DONT NEED HIDDEN FROM MODELED OUTER BODY LOCATIONS.
