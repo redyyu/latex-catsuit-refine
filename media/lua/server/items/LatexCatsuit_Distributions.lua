@@ -3,7 +3,7 @@ require "Items/ProceduralDistributions"
 MOD_NAME = "LatexCatsuitRefine";
 
 local ITEMS_WEIGHT = {
-    [".LatexCatsuitMag"]=0.1,
+    [".LatexCatsuitMag"]=0.2,
     [".LatexCatsuitFishnet"]=1,
     [".LatexCatsuitTightsBlack"]=1,
     [".LatexCatsuitTightsBlackSemiTrans"]=1,
@@ -79,9 +79,9 @@ local function insertDistributionList(table_obj, ITEMS_WEIGHT, rate)
 end
 
 
-insertDistributionList(ProceduralDistributions.list.BedroomDresser, ITEMS_WEIGHT, 0.05);
-insertDistributionList(ProceduralDistributions.list.WardrobeWoman, ITEMS_WEIGHT, 0.05);
-insertDistributionList(ProceduralDistributions.list.StripClubDressers, ITEMS_WEIGHT, 10);
+insertDistributionList(ProceduralDistributions.list.BedroomDresser, ITEMS_WEIGHT, 0.02);
+insertDistributionList(ProceduralDistributions.list.WardrobeWoman, ITEMS_WEIGHT, 0.02);
+insertDistributionList(ProceduralDistributions.list.StripClubDressers, ITEMS_WEIGHT, 6);
 
 insertTable(ProceduralDistributions.list["CrateBooks"], ".LatexCatsuitMag", 0.01);
 insertTable(ProceduralDistributions.list["BookstoreMisc"], ".LatexCatsuitMag", 0.01);
