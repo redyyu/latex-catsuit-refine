@@ -24,6 +24,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Catsuit Black {
+        keep Paintbrush,
         LatexCatsuitNude,
         PaintBlack,
         
@@ -38,6 +39,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Catsuit Red {
+        keep Paintbrush,
         LatexCatsuitNude,
         PaintRed,
         
@@ -71,6 +73,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Hood Black {
+        keep Paintbrush,
         LatexHoodNude,
         PaintBlack,
         
@@ -85,6 +88,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Hood Red {
+        keep Paintbrush,
         LatexHoodNude,
         PaintRed,
         
@@ -118,6 +122,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Leotard Black {
+        keep Paintbrush,
         LatexLeotardNude,
         PaintBlack,
         
@@ -132,6 +137,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Leotard Red {
+        keep Paintbrush,
         LatexLeotardNude,
         PaintRed,
         
@@ -165,6 +171,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Leotard H Black {
+        keep Paintbrush,
         LatexLeotardHNude,
         PaintBlack,
         
@@ -179,6 +186,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Leotard H Red {
+        keep Paintbrush,
         LatexLeotardHNude,
         PaintRed,
         
@@ -212,6 +220,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Leotard S Black {
+        keep Paintbrush,
         LatexLeotardSNude,
         PaintBlack,
         
@@ -226,6 +235,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Leotard S Red {
+        keep Paintbrush,
         LatexLeotardSNude,
         PaintRed,
         
@@ -259,6 +269,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Bolero Black {
+        keep Paintbrush,
         LatexBoleroNude,
         PaintBlack,
         
@@ -273,6 +284,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Bolero Red {
+        keep Paintbrush,
         LatexBoleroNude,
         PaintRed,
         
@@ -306,6 +318,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Pants Black {
+        keep Paintbrush,
         LatexPantsNude,
         PaintBlack,
         
@@ -320,6 +333,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Pants Red {
+        keep Paintbrush,
         LatexPantsNude,
         PaintRed,
         
@@ -353,6 +367,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Open Crotch Latex Pants Black {
+        keep Paintbrush,
         LatexPantsOpenNude,
         PaintBlack,
         
@@ -367,6 +382,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Open Crotch Latex Pants Red {
+        keep Paintbrush,
         LatexPantsOpenNude,
         PaintRed,
         
@@ -440,6 +456,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Stockings Black {
+        keep Paintbrush,
         LatexStockingsNude,
         PaintBlack,
         
@@ -454,6 +471,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Stockings Red {
+        keep Paintbrush,
         LatexStockingsNude,
         PaintRed,
         
@@ -487,6 +505,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Stockings H Black {
+        keep Paintbrush,
         LatexStockingsHNude,
         PaintBlack,
         
@@ -501,6 +520,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Stockings H Red {
+        keep Paintbrush,
         LatexStockingsHNude,
         PaintRed,
         
@@ -534,6 +554,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Gloves Black {
+        keep Paintbrush,
         LatexGlovesNude,
         PaintBlack,
         
@@ -548,6 +569,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Latex Gloves Red {
+        keep Paintbrush,
         LatexGlovesNude,
         PaintRed,
         
@@ -562,6 +584,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Red Leather Gloves {
+        keep Paintbrush,
         Gloves_LeatherGlovesBlack/Gloves_LeatherGloves,
         PaintRed,
         
@@ -576,6 +599,7 @@ module LatexCatsuitRefine
     }
 
     recipe Paint Red Riding Boots {
+        keep Paintbrush,
         Shoes_RidingBoots,
         PaintRed,
         
