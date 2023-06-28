@@ -583,21 +583,6 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
-    recipe Paint Red Leather Gloves {
-        keep Paintbrush,
-        Gloves_LeatherGlovesBlack/Gloves_LeatherGloves,
-        PaintRed,
-        
-        Result: Gloves_LeatherGlovesRed,
-        SkillRequired: Tailoring=2,
-        AnimNode: RipSheets,
-        Prop1: Source=1,
-        Prop2: Source=2,
-        Sound: Painting,
-        Time: 250.0,
-        Category: Latex Catsuit,
-    }
-
     recipe Paint Red Riding Boots {
         keep Paintbrush,
         Shoes_RidingBoots,

@@ -840,23 +840,6 @@ module LatexCatsuitRefine
         WorldStaticModel = Boots_Ground,
 	}
 
-    item Gloves_LeatherGlovesRed {
-	    DisplayCategory = Accessory,
-		Type = Clothing,
-		DisplayName = Red Leather Gloves,
-		ClothingItem = Gloves_LeatherGlovesRed,
-		BodyLocation = Hands,
-		BloodLocation = Hands,
-		Icon = GlovesLeatherRed,
-		ScratchDefense = 30,
-        BiteDefense = 15,
-        Weight = 0.1,
-        Insulation = 0.75,
-        WindResistance = 0.75,
-        FabricType = Leather,
-        WorldStaticModel = Gloves_Ground,
-	}
-
     item Bag_LatexBagBlack {
         DisplayCategory = Bag,
         Type = Container,

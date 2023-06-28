@@ -7,11 +7,6 @@
 	</files>
 
 	<files>
-		<path>media/clothing/clothingItems/Gloves_LeatherGlovesRed.xml</path>
-		<guid>e966b94e-c889-4118-8152-0b5e92690cc5</guid>
-	</files>
-
-	<files>
 		<path>media/clothing/clothingItems/Shoes_RedRidingBoots.xml</path>
 		<guid>ec0e6051-c718-49d8-9b65-5bc35b703c58</guid>
 	</files>

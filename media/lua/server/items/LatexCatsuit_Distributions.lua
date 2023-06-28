@@ -51,7 +51,6 @@ local ITEMS_WEIGHT = {
     [".HarnessWRed"]=0.6,
     [".CuffsCollar"]=0.6,
     [".Shoes_RedRidingBoots"]=0.6,
-    [".Gloves_LeatherGlovesRed"]=0.6,
     [".Bag_LatexBag"]=0.6,
     [".Bag_LatexBagRed"]=0.6,
 }
