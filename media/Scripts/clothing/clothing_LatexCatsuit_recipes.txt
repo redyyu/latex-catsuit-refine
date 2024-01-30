@@ -30,6 +30,8 @@ module LatexCatsuitRefine
         
         Result: LatexCatsuitBlack,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -45,6 +47,8 @@ module LatexCatsuitRefine
         
         Result: LatexCatsuitRed,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -79,6 +83,8 @@ module LatexCatsuitRefine
         
         Result: LatexHoodBlack,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -94,6 +100,8 @@ module LatexCatsuitRefine
         
         Result: LatexHoodRed,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -128,6 +136,8 @@ module LatexCatsuitRefine
         
         Result: LatexLeotardBlack,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -143,6 +153,8 @@ module LatexCatsuitRefine
         
         Result: LatexLeotardRed,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -177,6 +189,8 @@ module LatexCatsuitRefine
         
         Result: LatexLeotardHBlack,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -192,6 +206,8 @@ module LatexCatsuitRefine
         
         Result: LatexLeotardHRed,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -226,6 +242,8 @@ module LatexCatsuitRefine
         
         Result: LatexLeotardSBlack,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -241,6 +259,8 @@ module LatexCatsuitRefine
         
         Result: LatexLeotardSRed,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -275,6 +295,8 @@ module LatexCatsuitRefine
         
         Result: LatexBoleroBlack,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -290,6 +312,8 @@ module LatexCatsuitRefine
         
         Result: LatexBoleroRed,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -324,6 +348,8 @@ module LatexCatsuitRefine
         
         Result: LatexPantsBlack,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -339,6 +365,8 @@ module LatexCatsuitRefine
         
         Result: LatexPantsRed,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -373,6 +401,8 @@ module LatexCatsuitRefine
         
         Result: LatexPantsOpenBlack,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -388,6 +418,8 @@ module LatexCatsuitRefine
         
         Result: LatexPantsOpenRed,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -462,6 +494,8 @@ module LatexCatsuitRefine
         
         Result: LatexStockingsBlack,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -477,6 +511,8 @@ module LatexCatsuitRefine
         
         Result: LatexStockingsRed,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -511,6 +547,8 @@ module LatexCatsuitRefine
         
         Result: LatexStockingsHBlack,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -526,6 +564,8 @@ module LatexCatsuitRefine
         
         Result: LatexStockingsHRed,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -560,6 +600,8 @@ module LatexCatsuitRefine
         
         Result: LatexGlovesBlack,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -575,6 +617,8 @@ module LatexCatsuitRefine
         
         Result: LatexGlovesRed,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
@@ -590,6 +634,8 @@ module LatexCatsuitRefine
         
         Result: Shoes_RedRidingBoots,
         SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+        
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
