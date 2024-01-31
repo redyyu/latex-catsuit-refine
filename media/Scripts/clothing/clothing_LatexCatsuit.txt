@@ -819,27 +819,6 @@ module LatexCatsuitRefine
         WorldStaticModel = Choker_Ground,
 	}
 
-    item Shoes_RedRidingBoots {
-	    DisplayCategory = Clothing,
-		Type = Clothing,
-		DisplayName = Red Riding Boots,
-		ClothingItem = Shoes_RedRidingBoots,
-		BodyLocation = Shoes,
-		BloodLocation = Shoes,
-		Icon = RedBootsRiding,
-		StompPower = 2.2,
-		ConditionLowerChanceOneIn = 15,
-        ConditionMax = 27,
-        RunSpeedModifier = 0.9,
-        RemoveOnBroken = false,
-        ScratchDefense = 100,
-        BiteDefense = 100,
-        Insulation = 0.9,
-        WindResistance = 0.6,
-        WaterResistance = 0.45,
-        WorldStaticModel = Boots_Ground,
-	}
-
     item Bag_LatexBagBlack {
         DisplayCategory = Bag,
         Type = Container,

@@ -300,10 +300,6 @@
 				<!-- Shoes_RidingBoots -->
 				<itemGUID>09bc4da2-6038-4575-985b-c27b8dbfef6c</itemGUID>
 			</subItems>
-			<subItems>
-				<!-- Shoes_RedRidingBoots -->
-				<itemGUID>ec0e6051-c718-49d8-9b65-5bc35b703c58</itemGUID>
-			</subItems>
 		</m_items>
 	</m_FemaleOutfits>
 	
