@@ -749,7 +749,7 @@ module LatexCatsuitRefine
         Thread=8,
 
         Result: LatexCatsuitFishnet,
-        SkillRequired: Tailoring=8,
+        SkillRequired: Tailoring=7,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -767,7 +767,7 @@ module LatexCatsuitRefine
         Thread=8,
 
         Result: LatexCatsuitTightsBlack,
-        SkillRequired: Tailoring=8,
+        SkillRequired: Tailoring=7,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -785,7 +785,7 @@ module LatexCatsuitRefine
         Thread=8,
 
         Result: LatexCatsuitTightsBlackSemiTrans,
-        SkillRequired: Tailoring=8,
+        SkillRequired: Tailoring=7,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -803,7 +803,7 @@ module LatexCatsuitRefine
         Thread=8,
 
         Result: LatexCatsuitTightsBlackTrans,
-        SkillRequired: Tailoring=8,
+        SkillRequired: Tailoring=7,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
