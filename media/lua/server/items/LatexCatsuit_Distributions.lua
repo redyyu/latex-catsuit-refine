@@ -4,7 +4,7 @@ require "Items/SuburbsDistributions"
 MOD_NAME = "LatexCatsuitRefine";
 
 local SUB_BLACK_ITEMS = {
-    [".LatexCatsuitMag"]=0.5,
+    [".LatexCatsuitMag"]=1,
     [".LatexCatsuitFishnet"]=15,
     [".LatexCatsuitTightsBlack"]=15,
     [".LatexCatsuitTightsBlackSemiTrans"]=15,
@@ -40,7 +40,7 @@ local SUB_BLACK_ITEMS = {
 }
 
 local SUB_RED_ITEMS = {
-    [".LatexCatsuitMag"]=0.5,
+    [".LatexCatsuitMag"]=1,
     [".LatexCatsuitFishnet"]=15,
     [".LatexCatsuitTightsBlackSemiTrans"]=15,
     [".LatexCatsuitTightsBlackTrans"]=15,
@@ -102,7 +102,11 @@ insertTable(ProceduralDistributions.list.WardrobeWoman, ".LatexCatsuitMag", 0.01
 insertTable(ProceduralDistributions.list.StripClubDressers, ".LatexCatsuitMag", 0.01);
 
 
-local function insertSuburbsItems(key, items)
+local function insertSuburbsItems(key, items, weight)
+    if weight == nil and weight ~= 0 then
+        weight = 1
+    end
+
     SuburbsDistributions[key] = {
         rolls = 4,
         items = {},
@@ -120,27 +124,22 @@ local function insertSuburbsItems(key, items)
             k = MOD_NAME..k
         end
         table.insert(SuburbsDistributions[key].items, k);
-	    table.insert(SuburbsDistributions[key].items, v);
+	    table.insert(SuburbsDistributions[key].items, v * weight);
     end
     
 end
 
 -- !!! DO NOT add package name before items when injuect SuburbsDistributions table.
-insertSuburbsItems('Bag_LatexBagBlack', SUB_BLACK_ITEMS)
-insertSuburbsItems('Bag_LatexBagRed', SUB_RED_ITEMS)
+insertSuburbsItems('Bag_LatexBagBlack', SUB_BLACK_ITEMS, 1)
+insertSuburbsItems('Bag_LatexBagRed', SUB_RED_ITEMS, 1)
 
 
-insertTable(ProceduralDistributions.list.BedroomDresser, ".Bag_LatexBagBlack", 500.01);
-insertTable(ProceduralDistributions.list.BedroomDresser, ".Bag_LatexBagRed", 0.01);
+insertTable(ProceduralDistributions.list.BedroomDresser, ".Bag_LatexBagBlack", 0.025);
+insertTable(ProceduralDistributions.list.BedroomDresser, ".Bag_LatexBagRed", 0.025);
 
-insertTable(ProceduralDistributions.list.WardrobeWoman, ".Bag_LatexBagBlack", 500.01);
-insertTable(ProceduralDistributions.list.WardrobeWoman, ".Bag_LatexBagRed", 0.01);
+insertTable(ProceduralDistributions.list.WardrobeWoman, ".Bag_LatexBagBlack", 0.025);
+insertTable(ProceduralDistributions.list.WardrobeWoman, ".Bag_LatexBagRed", 0.025);
 
-insertTable(ProceduralDistributions.list.StripClubDressers, ".Bag_LatexBagBlack", 500.01);
-insertTable(ProceduralDistributions.list.StripClubDressers, ".Bag_LatexBagRed", 0.01);
+insertTable(ProceduralDistributions.list.StripClubDressers, ".Bag_LatexBagBlack", 0.5);
+insertTable(ProceduralDistributions.list.StripClubDressers, ".Bag_LatexBagRed", 0.5);
 
-insertTable(ProceduralDistributions.list.KitchenPots, ".Bag_LatexBagBlack", 500.01);
-insertTable(ProceduralDistributions.list.KitchenPots, ".Bag_LatexBagRed", 0.01);
-
-insertTable(ProceduralDistributions.list.StoreKitchenPots, ".Bag_LatexBagBlack", 500.01);
-insertTable(ProceduralDistributions.list.StoreKitchenPots, ".Bag_LatexBagRed", 0.01);
