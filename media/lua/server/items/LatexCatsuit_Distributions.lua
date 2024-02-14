@@ -130,8 +130,8 @@ local function insertSuburbsItems(key, items, weight)
 end
 
 -- !!! DO NOT add package name before items when injuect SuburbsDistributions table.
-insertSuburbsItems('Bag_LatexBagBlack', SUB_BLACK_ITEMS, 1)
-insertSuburbsItems('Bag_LatexBagRed', SUB_RED_ITEMS, 1)
+insertSuburbsItems('Bag_LatexBagBlack', SUB_BLACK_ITEMS, 1.5)
+insertSuburbsItems('Bag_LatexBagRed', SUB_RED_ITEMS, 1.5)
 
 
 insertTable(ProceduralDistributions.list.BedroomDresser, ".Bag_LatexBagBlack", 0.025);
