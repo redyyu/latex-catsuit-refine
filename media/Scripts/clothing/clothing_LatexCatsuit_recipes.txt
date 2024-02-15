@@ -762,8 +762,8 @@ module LatexCatsuitRefine
     recipe Make Latex Catsuit Tights {
         keep Scissors,
         keep Needle/SutureNeedle,
-        TightsBlack=3,
-        RubberBand=4,
+        TightsBlack=6,
+        RubberBand=1,
         Thread=8,
 
         Result: LatexCatsuitTightsBlack,
@@ -780,8 +780,8 @@ module LatexCatsuitRefine
     recipe Make Latex Catsuit Tights Semi Transparent {
         keep Scissors,
         keep Needle/SutureNeedle,
-        TightsBlackSemiTrans=3,
-        RubberBand=4,
+        TightsBlackSemiTrans=6,
+        RubberBand=1,
         Thread=8,
 
         Result: LatexCatsuitTightsBlackSemiTrans,
@@ -798,8 +798,8 @@ module LatexCatsuitRefine
     recipe Make Latex Catsuit Tights Transparent {
         keep Scissors,
         keep Needle/SutureNeedle,
-        TightsBlackTrans=3,
-        RubberBand=4,
+        TightsBlackTrans=6,
+        RubberBand=1,
         Thread=8,
 
         Result: LatexCatsuitTightsBlackTrans,
