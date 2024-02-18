@@ -25,12 +25,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Catsuit Black {
         keep Paintbrush,
-        LatexCatsuitNude,
+        LatexCatsuitNude/LatexCatsuitRed,
         PaintBlack,
         
         Result: LatexCatsuitBlack,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -42,12 +43,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Catsuit Red {
         keep Paintbrush,
-        LatexCatsuitNude,
+        LatexCatsuitNude/LatexCatsuitBlack,
         PaintRed,
         
         Result: LatexCatsuitRed,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -78,12 +80,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Hood Black {
         keep Paintbrush,
-        LatexHoodNude,
+        LatexHoodNude/LatexHoodRed,
         PaintBlack,
         
         Result: LatexHoodBlack,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -95,12 +98,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Hood Red {
         keep Paintbrush,
-        LatexHoodNude,
+        LatexHoodNude/LatexHoodBlack,
         PaintRed,
         
         Result: LatexHoodRed,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -131,12 +135,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Leotard Black {
         keep Paintbrush,
-        LatexLeotardNude,
+        LatexLeotardNude/LatexLeotardRed,
         PaintBlack,
         
         Result: LatexLeotardBlack,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -148,12 +153,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Leotard Red {
         keep Paintbrush,
-        LatexLeotardNude,
+        LatexLeotardNude/LatexLeotardBlack,
         PaintRed,
         
         Result: LatexLeotardRed,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -184,12 +190,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Leotard H Black {
         keep Paintbrush,
-        LatexLeotardHNude,
+        LatexLeotardHNude/LatexLeotardHRed,
         PaintBlack,
         
         Result: LatexLeotardHBlack,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -201,12 +208,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Leotard H Red {
         keep Paintbrush,
-        LatexLeotardHNude,
+        LatexLeotardHNude/LatexLeotardHBlack,
         PaintRed,
         
         Result: LatexLeotardHRed,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -237,12 +245,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Leotard S Black {
         keep Paintbrush,
-        LatexLeotardSNude,
+        LatexLeotardSNude/LatexLeotardSRed,
         PaintBlack,
         
         Result: LatexLeotardSBlack,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -254,12 +263,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Leotard S Red {
         keep Paintbrush,
-        LatexLeotardSNude,
+        LatexLeotardSNude/LatexLeotardSBlack,
         PaintRed,
         
         Result: LatexLeotardSRed,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -290,12 +300,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Bolero Black {
         keep Paintbrush,
-        LatexBoleroNude,
+        LatexBoleroNude/LatexBoleroRed,
         PaintBlack,
         
         Result: LatexBoleroBlack,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -307,12 +318,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Bolero Red {
         keep Paintbrush,
-        LatexBoleroNude,
+        LatexBoleroNude/LatexBoleroBlack,
         PaintRed,
         
         Result: LatexBoleroRed,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -343,12 +355,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Pants Black {
         keep Paintbrush,
-        LatexPantsNude,
+        LatexPantsNude/LatexPantsRed,
         PaintBlack,
         
         Result: LatexPantsBlack,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -360,12 +373,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Pants Red {
         keep Paintbrush,
-        LatexPantsNude,
+        LatexPantsNude/LatexPantsBlack,
         PaintRed,
         
         Result: LatexPantsRed,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -396,12 +410,13 @@ module LatexCatsuitRefine
 
     recipe Paint Open Crotch Latex Pants Black {
         keep Paintbrush,
-        LatexPantsOpenNude,
+        LatexPantsOpenNude/LatexPantsOpenRed,
         PaintBlack,
         
         Result: LatexPantsOpenBlack,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -413,12 +428,13 @@ module LatexCatsuitRefine
 
     recipe Paint Open Crotch Latex Pants Red {
         keep Paintbrush,
-        LatexPantsOpenNude,
+        LatexPantsOpenNude/LatexPantsOpenBlack,
         PaintRed,
         
         Result: LatexPantsOpenRed,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -468,6 +484,42 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
+    recipe Paint Latex Skirt Black {
+        keep Paintbrush,
+        LatexSkirtRed,
+        PaintBlack,
+        
+        Result: LatexSkirtBlack,
+        SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
+
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: Painting,
+        Time: 250.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Skirt Red {
+        keep Paintbrush,
+        LatexSkirtBlack,
+        PaintRed,
+        
+        Result: LatexSkirtRed,
+        SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
+
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: Painting,
+        Time: 250.0,
+        Category: Latex Catsuit,
+    }
+
     recipe Make Latex Stockings Nude {
         keep Scissors,
         keep Needle/SutureNeedle,
@@ -489,12 +541,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Stockings Black {
         keep Paintbrush,
-        LatexStockingsNude,
+        LatexStockingsNude/LatexStockingsRed,
         PaintBlack,
         
         Result: LatexStockingsBlack,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -506,12 +559,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Stockings Red {
         keep Paintbrush,
-        LatexStockingsNude,
+        LatexStockingsNude/LatexStockingsBlack,
         PaintRed,
         
         Result: LatexStockingsRed,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -542,12 +596,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Stockings H Black {
         keep Paintbrush,
-        LatexStockingsHNude,
+        LatexStockingsHNude/LatexStockingsHRed,
         PaintBlack,
         
         Result: LatexStockingsHBlack,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -559,12 +614,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Stockings H Red {
         keep Paintbrush,
-        LatexStockingsHNude,
+        LatexStockingsHNude/LatexStockingsHBlack,
         PaintRed,
         
         Result: LatexStockingsHRed,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -595,12 +651,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Gloves Black {
         keep Paintbrush,
-        LatexGlovesNude,
+        LatexGlovesNude/LatexGlovesRed,
         PaintBlack,
         
         Result: LatexGlovesBlack,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -612,12 +669,13 @@ module LatexCatsuitRefine
 
     recipe Paint Latex Gloves Red {
         keep Paintbrush,
-        LatexGlovesNude,
+        LatexGlovesNude/LatexGlovesBlack,
         PaintRed,
         
         Result: LatexGlovesRed,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
 
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -630,9 +688,8 @@ module LatexCatsuitRefine
     recipe Make Harness Rope {
         keep Scissors,
         keep Needle/SutureNeedle,
-        RubberBand=2,
+        RubberBand=1,
         Thread=2,
-        Leash,
         Rope,
 
         Result: HarnessRope,
@@ -646,50 +703,47 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
-    recipe Make Harness Black {
-        keep Scissors,
-        keep Needle/SutureNeedle,
-        RubberBand=2,
-        Thread=2,
-        Leash,
+    recipe Paint Harness Black {
+        keep Paintbrush,
+        HarnessRope/HarnessRed,
         PaintBlack,
-
+        
         Result: HarnessBlack,
-        SkillRequired: Tailoring=4,
-        NeedToBeLearn: true,
+        SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
-        Time: 500.0,
+        Sound: Painting,
+        Time: 250.0,
         Category: Latex Catsuit,
     }
 
-    recipe Make Harness Red {
-        keep Scissors,
-        keep Needle/SutureNeedle,
-        RubberBand=2,
-        Thread=2,
-        Leash,
+    recipe Paint Harness Red {
+        keep Paintbrush,
+        HarnessRope/HarnesBlack,
         PaintRed,
-
+        
         Result: HarnessRed,
-        SkillRequired: Tailoring=4,
-        NeedToBeLearn: true,
+        SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
-        Time: 500.0,
+        Sound: Painting,
+        Time: 250.0,
         Category: Latex Catsuit,
     }
 
     recipe Make Harness W Rope {
         keep Scissors,
         keep Needle/SutureNeedle,
-        RubberBand=2,
+        RubberBand=1,
         Thread=2,
-        Leash,
         Rope,
 
         Result: HarnessWRope,
@@ -703,41 +757,39 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
-    recipe Make Harness W Black {
-        keep Scissors,
-        keep Needle/SutureNeedle,
-        RubberBand=2,
-        Thread=2,
-        Leash,
+     recipe Paint Harness W Black {
+        keep Paintbrush,
+        HarnessWRope/HarnessWRed,
         PaintBlack,
-
+        
         Result: HarnessWBlack,
-        SkillRequired: Tailoring=4,
-        NeedToBeLearn: true,
+        SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
-        Time: 500.0,
+        Sound: Painting,
+        Time: 250.0,
         Category: Latex Catsuit,
     }
 
-    recipe Make Harness W Red {
-        keep Scissors,
-        keep Needle/SutureNeedle,
-        RubberBand=2,
-        Thread=2,
-        Leash,
+    recipe Paint Harness W Red {
+        keep Paintbrush,
+        HarnessWRope/HarnesWBlack,
         PaintRed,
-
+        
         Result: HarnessWRed,
-        SkillRequired: Tailoring=4,
-        NeedToBeLearn: true,
+        SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
+
         AnimNode: RipSheets,
         Prop1: Source=1,
         Prop2: Source=2,
-        Sound: ClothesRipping,
-        Time: 500.0,
+        Sound: Painting,
+        Time: 250.0,
         Category: Latex Catsuit,
     }
 
@@ -853,13 +905,54 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
+    recipe Paint Black Latex Bag {
+        keep Paintbrush,
+        Bag_LatexBagRed,
+        PaintBlack,
+        
+        Result: Bag_LatexBagBlack,
+        SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
+
+        OnTest: Recipe.OnTest.IsEquippedLatexBag,
+        OnCreate: Recipe.OnCreate.RestoreLatexBagItems,
+
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: Painting,
+        Time: 250.0,
+        Category: Latex Catsuit,
+    }
+    
+    recipe Paint Red Latex Bag {
+        keep Paintbrush,
+        Bag_LatexBagBlack,
+        PaintRed,
+        
+        Result: Bag_LatexBagRed,
+        SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
+
+        OnTest: Recipe.OnTest.IsEquippedLatexBag,
+        OnCreate: Recipe.OnCreate.RestoreLatexBagItems,
+
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: Painting,
+        Time: 250.0,
+        Category: Latex Catsuit,
+    }
+
     recipe Make Cuffs Collar {
         keep Scissors,
         keep Needle/SutureNeedle,
         RubberBand=1,
         Thread=1,
         Leash,
-        PaintBlack,
         Padlock/CombinationPadlock,
 
         Result: CuffsCollar,
@@ -870,6 +963,60 @@ module LatexCatsuitRefine
         Prop2: Source=2,
         Sound: ClothesRipping,
         Time: 500.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Cuffs Collar Black {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        RubberBand=1,
+        Thread=1,
+        Leash,
+        Padlock/CombinationPadlock,
+        PaintBlack,
+
+        Result: CuffsCollarBlack,
+        SkillRequired: Tailoring=5,
+        NeedToBeLearn: true,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 500.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Cuffs Collar Black {
+        keep Paintbrush,
+        CuffsCollar,
+        PaintBlack,
+        
+        Result: CuffsCollarBlack,
+        SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: Painting,
+        Time: 250.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Cuffs Collar Red {
+        keep Paintbrush,
+        CuffsCollarBlack,
+        PaintRed,
+        
+        Result: CuffsCollar,
+        SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: Painting,
+        Time: 250.0,
         Category: Latex Catsuit,
     }
 

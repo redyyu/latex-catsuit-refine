@@ -13,6 +13,10 @@
 			<!-- Cuffs_Collar -->
 			<probability>0.4</probability>
 			<itemGUID>54d56acb-ab29-4f84-ad4f-591f9871b54c</itemGUID>
+			<subItems>
+				<!-- Cuffs_Collar_Black -->
+				<itemGUID>19b10dc7-d9cf-40b0-967c-75cf72528e82</itemGUID>
+			</subItems>
 		</m_items>
 		<m_items>
 			<probability>0.2</probability>
@@ -304,7 +308,7 @@
 	</m_FemaleOutfits>
 	
 	<m_FemaleOutfits>
-		<m_Name>LatexCatsuitGirlFull</m_Name>
+		<m_Name>LatexCatsuitGirlTights</m_Name>
 		<m_Guid>5adc5f2a-0b76-4723-b99e-277eb84a0179</m_Guid>
 		<m_Top>false</m_Top>
 		<m_Pants>false</m_Pants>
@@ -316,6 +320,10 @@
 			<!-- Cuffs_Collar -->
 			<probability>0.4</probability>
 			<itemGUID>54d56acb-ab29-4f84-ad4f-591f9871b54c</itemGUID>
+			<subItems>
+				<!-- Cuffs_Collar_Black -->
+				<itemGUID>19b10dc7-d9cf-40b0-967c-75cf72528e82</itemGUID>
+			</subItems>
 		</m_items>
 		<m_items>
 			<probability>0.2</probability>

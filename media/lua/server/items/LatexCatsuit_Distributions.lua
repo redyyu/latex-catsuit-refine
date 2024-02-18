@@ -36,7 +36,7 @@ local SUB_BLACK_ITEMS = {
     [".HarnessBlack"]=5,
     [".HarnessWRope"]=5,
     [".HarnessWBlack"]=5,
-    [".CuffsCollar"]=10,
+    [".CuffsCollarBlack"]=10,
 }
 
 local SUB_RED_ITEMS = {

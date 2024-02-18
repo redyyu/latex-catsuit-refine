@@ -1,3 +1,38 @@
+
+function Recipe.OnCreate.RestoreLatexBagItems(item, resultItem)
+
+	local transferred_Items = {}; 
+	local dItem;
+	
+	for i = 0, (item:size()-1) do 
+		dItem = item:get(i); 
+		if instanceof(dItem, "InventoryContainer") then 
+			dInv = dItem:getInventory(); 
+			newInv = resultItem:getInventory(); 
+			dInvItems = dInv:getItems(); 
+			if dInvItems:size() >= 1 then 
+				for i2 = 0, (dInvItems:size()-1) do
+					invItem = dInvItems:get(i2);
+					table.insert(transferred_Items, invItem) 
+				end
+			end
+		end
+	end
+	
+	for _, v in ipairs(transferred_Items) do
+		dInv:Remove(v); 
+		newInv:AddItem(v); 
+	end
+end
+
+function Recipe.OnTest.IsEquippedLatexBag(item)
+    if instanceof(item, "InventoryContainer") then
+        return not item:isEquipped();
+    end
+    return true
+end
+
+
 -- Try to change suit texture dynamic.
 -- doesn't end well....
 

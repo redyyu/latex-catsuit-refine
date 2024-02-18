@@ -7,6 +7,12 @@
 	</files>
 
 	<files>
+		<path>media/clothing/clothingItems/Cuffs_Collar_Black.xml</path>
+		<guid>19b10dc7-d9cf-40b0-967c-75cf72528e82</guid>
+	</files>
+
+
+	<files>
 		<path>media/clothing/clothingItems/Latex_Bag_Red.xml</path>
 		<guid>e2be3ac2-a110-413e-b698-6cc17997f8e0</guid>
 	</files>
