@@ -853,4 +853,24 @@ module LatexCatsuitRefine
         Category: Latex Catsuit,
     }
 
+    recipe Make Cuffs Collar {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        RubberBand=1,
+        Thread=1,
+        Leash,
+        PaintBlack,
+        Padlock/CombinationPadlock,
+
+        Result: CuffsCollar,
+        SkillRequired: Tailoring=5,
+        NeedToBeLearn: true,
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 500.0,
+        Category: Latex Catsuit,
+    }
+
 }
