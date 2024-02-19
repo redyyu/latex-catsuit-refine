@@ -13,6 +13,7 @@ groupAttached:getOrCreateLocation("Harness Mag Right"):setAttachmentName("harnes
 
 group:getOrCreateLocation("TightMask")  -- for hood mask wearing with FullHat, Masks or Glasses.
 
+
 -- DONT NEED HIDDEN FROM MODELED OUTER BODY LOCATIONS.
 
 -- local function setHideBodyLocation(group, cover_locations, hidden_location)
