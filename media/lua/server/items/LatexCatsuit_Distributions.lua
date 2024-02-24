@@ -10,7 +10,7 @@ local SUB_BLACK_ITEMS = {
     [".LatexCatsuitTightsBlackSemiTrans"]=15,
     [".LatexCatsuitTightsBlackTrans"]=15,
     [".LatexCatsuitNude"]=15,
-    [".LatexCatsuitBlack"]=30,
+    [".LatexCatsuitBlack"]=20,
     [".LatexHoodNude"]=5,
     [".LatexHoodBlack"]=10,
     [".LatexLeotardNude"]=5,
@@ -45,7 +45,7 @@ local SUB_RED_ITEMS = {
     [".LatexCatsuitTightsBlackSemiTrans"]=15,
     [".LatexCatsuitTightsBlackTrans"]=15,
     [".LatexCatsuitNude"]=15,
-    [".LatexCatsuitRed"]=30,
+    [".LatexCatsuitRed"]=20,
     [".LatexHoodNude"]=5,
     [".LatexHoodRed"]=10,
     [".LatexLeotardNude"]=5,
@@ -130,16 +130,16 @@ local function insertSuburbsItems(key, items, weight)
 end
 
 -- !!! DO NOT add package name before items when injuect SuburbsDistributions table.
-insertSuburbsItems('Bag_LatexBagBlack', SUB_BLACK_ITEMS, 1.5)
-insertSuburbsItems('Bag_LatexBagRed', SUB_RED_ITEMS, 1.5)
+insertSuburbsItems('Bag_LatexBagBlack', SUB_BLACK_ITEMS, 1)
+insertSuburbsItems('Bag_LatexBagRed', SUB_RED_ITEMS, 1)
 
 
-insertTable(ProceduralDistributions.list.BedroomDresser, ".Bag_LatexBagBlack", 0.025);
-insertTable(ProceduralDistributions.list.BedroomDresser, ".Bag_LatexBagRed", 0.025);
+insertTable(ProceduralDistributions.list.BedroomDresser, ".Bag_LatexBagBlack", 0.005);
+insertTable(ProceduralDistributions.list.BedroomDresser, ".Bag_LatexBagRed", 0.005);
 
-insertTable(ProceduralDistributions.list.WardrobeWoman, ".Bag_LatexBagBlack", 0.025);
-insertTable(ProceduralDistributions.list.WardrobeWoman, ".Bag_LatexBagRed", 0.025);
+insertTable(ProceduralDistributions.list.WardrobeWoman, ".Bag_LatexBagBlack", 0.005);
+insertTable(ProceduralDistributions.list.WardrobeWoman, ".Bag_LatexBagRed", 0.005);
 
-insertTable(ProceduralDistributions.list.StripClubDressers, ".Bag_LatexBagBlack", 0.5);
-insertTable(ProceduralDistributions.list.StripClubDressers, ".Bag_LatexBagRed", 0.5);
+insertTable(ProceduralDistributions.list.StripClubDressers, ".Bag_LatexBagBlack", 0.05);
+insertTable(ProceduralDistributions.list.StripClubDressers, ".Bag_LatexBagRed", 0.05);
 
