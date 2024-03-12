@@ -13,14 +13,14 @@ module LatexCatsuitRefine
         WorldStaticModel = MagazineGround,
     }
 
-    item LatexCatsuitFishnet {
+    item LatexCatsuitFishnets {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Latex Catsuit Fishnet,
-        ClothingItem = Latex_Catsuit_Fishnet,
+        DisplayName = Body Fishnets,
+        ClothingItem = Latex_Catsuit_TightsFishnets,
         BodyLocation = Underwear,
         BloodLocation = Shoes;Trousers;UpperBody;LowerBody;UpperArms;LowerArms;Neck,
-        Icon = Latex_Catsuit_Fishnet,
+        Icon = Latex_Catsuit_TightsFishnets,
         Weight = 0.5,
         ScratchDefense = 10,
         BiteDefense = 5,
@@ -34,7 +34,7 @@ module LatexCatsuitRefine
     item LatexCatsuitTightsBlack {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Latex Catsuit Tights,
+        DisplayName = Body Stocking Black,
         ClothingItem = Latex_Catsuit_TightsBlack,
         BodyLocation = Underwear,
         BloodLocation = Shoes;Trousers;UpperBody;LowerBody;UpperArms;LowerArms;Neck,
@@ -52,7 +52,7 @@ module LatexCatsuitRefine
     item LatexCatsuitTightsBlackSemiTrans {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Latex Catsuit Tights Semi Transparent,
+        DisplayName = Body Stocking Semi Transparent,
         ClothingItem = Latex_Catsuit_TightsBlackSemiTrans,
         BodyLocation = Underwear,
         BloodLocation = Shoes;Trousers;UpperBody;LowerBody;UpperArms;LowerArms;Neck,
@@ -70,7 +70,7 @@ module LatexCatsuitRefine
     item LatexCatsuitTightsBlackTrans {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Latex Catsuit Tights Transparent,
+        DisplayName = Body Stocking Transparent,
         ClothingItem = Latex_Catsuit_TightsBlackTrans,
         BodyLocation = Underwear,
         BloodLocation = Shoes;Trousers;UpperBody;LowerBody;UpperArms;LowerArms;Neck,
