@@ -18,7 +18,7 @@ module LatexCatsuitRefine
         Type = Clothing,
         DisplayName = Body Fishnets,
         ClothingItem = Latex_Catsuit_TightsFishnets,
-        BodyLocation = Underwear,
+        BodyLocation = UnderwearExtra1,  /* replace Tights */
         BloodLocation = Shoes;Trousers;UpperBody;LowerBody;UpperArms;LowerArms;Neck,
         Icon = Latex_Catsuit_TightsFishnets,
         Weight = 0.5,
@@ -36,7 +36,7 @@ module LatexCatsuitRefine
         Type = Clothing,
         DisplayName = Body Stocking Black,
         ClothingItem = Latex_Catsuit_TightsBlack,
-        BodyLocation = Underwear,
+        BodyLocation = UnderwearExtra1,  /* replace Tights */
         BloodLocation = Shoes;Trousers;UpperBody;LowerBody;UpperArms;LowerArms;Neck,
         Icon = Latex_Catsuit_TightsBlack,
         Weight = 0.5,
@@ -54,7 +54,7 @@ module LatexCatsuitRefine
         Type = Clothing,
         DisplayName = Body Stocking Semi Transparent,
         ClothingItem = Latex_Catsuit_TightsBlackSemiTrans,
-        BodyLocation = Underwear,
+        BodyLocation = UnderwearExtra1,  /* replace Tights */
         BloodLocation = Shoes;Trousers;UpperBody;LowerBody;UpperArms;LowerArms;Neck,
         Icon = Latex_Catsuit_TightsBlackSemiTrans,
         Weight = 0.5,
@@ -72,7 +72,7 @@ module LatexCatsuitRefine
         Type = Clothing,
         DisplayName = Body Stocking Transparent,
         ClothingItem = Latex_Catsuit_TightsBlackTrans,
-        BodyLocation = Underwear,
+        BodyLocation = UnderwearExtra1,
         BloodLocation = Shoes;Trousers;UpperBody;LowerBody;UpperArms;LowerArms;Neck,
         Icon = Latex_Catsuit_TightsBlackTrans,
         Weight = 0.5,

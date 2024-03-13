@@ -13,7 +13,7 @@ module LatexCatsuitRefine
         Tarp=4,
 
         Result: LatexCatsuitNude,
-        SkillRequired: Tailoring=8,
+        SkillRequired: Tailoring=10,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -68,7 +68,7 @@ module LatexCatsuitRefine
         Tarp=1,
 
         Result: LatexHoodNude,
-        SkillRequired: Tailoring=7,
+        SkillRequired: Tailoring=9,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -123,7 +123,7 @@ module LatexCatsuitRefine
         Tarp=1,
 
         Result: LatexLeotardNude,
-        SkillRequired: Tailoring=6,
+        SkillRequired: Tailoring=8,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -178,7 +178,7 @@ module LatexCatsuitRefine
         Tarp=1,
 
         Result: LatexLeotardHNude,
-        SkillRequired: Tailoring=6,
+        SkillRequired: Tailoring=8,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -233,7 +233,7 @@ module LatexCatsuitRefine
         Tarp=1,
 
         Result: LatexLeotardSNude,
-        SkillRequired: Tailoring=6,
+        SkillRequired: Tailoring=8,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -288,7 +288,7 @@ module LatexCatsuitRefine
         Tarp=1,
 
         Result: LatexBoleroNude,
-        SkillRequired: Tailoring=7,
+        SkillRequired: Tailoring=8,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -343,7 +343,7 @@ module LatexCatsuitRefine
         Tarp=2,
 
         Result: LatexPantsNude,
-        SkillRequired: Tailoring=7,
+        SkillRequired: Tailoring=8,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -398,7 +398,7 @@ module LatexCatsuitRefine
         Tarp=2,
 
         Result: LatexPantsOpenNude,
-        SkillRequired: Tailoring=7,
+        SkillRequired: Tailoring=8,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -454,7 +454,7 @@ module LatexCatsuitRefine
         PaintBlack,
 
         Result: LatexSkirtBlack,
-        SkillRequired: Tailoring=5,
+        SkillRequired: Tailoring=7,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -474,7 +474,7 @@ module LatexCatsuitRefine
         PaintRed,
 
         Result: LatexSkirtRed,
-        SkillRequired: Tailoring=5,
+        SkillRequired: Tailoring=7,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -529,7 +529,7 @@ module LatexCatsuitRefine
         Tarp=1,
 
         Result: LatexStockingsNude,
-        SkillRequired: Tailoring=6,
+        SkillRequired: Tailoring=8,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -584,7 +584,7 @@ module LatexCatsuitRefine
         Tarp=1,
 
         Result: LatexStockingsHNude,
-        SkillRequired: Tailoring=6,
+        SkillRequired: Tailoring=8,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -639,7 +639,7 @@ module LatexCatsuitRefine
         Tarp=1,
 
         Result: LatexGlovesNude,
-        SkillRequired: Tailoring=7,
+        SkillRequired: Tailoring=9,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -801,7 +801,7 @@ module LatexCatsuitRefine
         Thread=8,
 
         Result: LatexCatsuitFishnet,
-        SkillRequired: Tailoring=6,
+        SkillRequired: Tailoring=8,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -819,7 +819,7 @@ module LatexCatsuitRefine
         Thread=8,
 
         Result: LatexCatsuitTightsBlack,
-        SkillRequired: Tailoring=6,
+        SkillRequired: Tailoring=8,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -837,7 +837,7 @@ module LatexCatsuitRefine
         Thread=8,
 
         Result: LatexCatsuitTightsBlackSemiTrans,
-        SkillRequired: Tailoring=6,
+        SkillRequired: Tailoring=8,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -855,7 +855,7 @@ module LatexCatsuitRefine
         Thread=8,
 
         Result: LatexCatsuitTightsBlackTrans,
-        SkillRequired: Tailoring=6,
+        SkillRequired: Tailoring=8,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -956,7 +956,7 @@ module LatexCatsuitRefine
         Padlock/CombinationPadlock,
 
         Result: CuffsCollar,
-        SkillRequired: Tailoring=5,
+        SkillRequired: Tailoring=6,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
@@ -976,7 +976,7 @@ module LatexCatsuitRefine
         PaintBlack,
 
         Result: CuffsCollarBlack,
-        SkillRequired: Tailoring=5,
+        SkillRequired: Tailoring=6,
         NeedToBeLearn: true,
         AnimNode: RipSheets,
         Prop1: Source=1,
