@@ -7,7 +7,7 @@ module LatexCatsuitRefine
         Type = Literature,
         DisplayName	= The Cat Woman,
         Icon = MagazineLatexCatsuitMag,
-        TeachedRecipes = Make Latex Catsuit Nude;Make Latex Hood Nude;Make Latex Leotard Nude;Make Latex Leotard H Nude;Make Latex Leotard S Nude;Make Latex Bolero Nude;Make Latex Pants Nude;Make Open Crotch Latex Pants Nude;Make Latex Skirt Black;Make Latex Skirt Red;Make Latex Stockings Nude;Make Latex Stockings H Nude;Make Latex Gloves Nude;Make Harness Rope;Make Harness W Rope;Make Latex Catsuit Tights Transparent;Make Latex Catsuit Tights Semi Transparent;Make Latex Catsuit Tights;Make Black Latex Bag;Make Red Latex Bag;Make Cuffs Collar;Make Cuffs Collar Black,
+        TeachedRecipes = Make Latex Catsuit Nude;Make Latex Hood Nude;Make Latex Leotard Nude;Make Latex Leotard H Nude;Make Latex Leotard S Nude;Make Latex Bolero Nude;Make Latex Pants Nude;Make Open Crotch Latex Pants Nude;Make Latex Skirt Black;Make Latex Skirt Red;Make Latex Stockings Nude;Make Latex Stockings H Nude;Make Latex Gloves Nude;Make Harness Rope;Make Harness W Rope;Make Body Stocking Transparent;Make Body Stocking Semi Transparent;Make Body Stocking Black;Make Black Latex Bag;Make Red Latex Bag;Make Cuffs Collar;Make Cuffs Collar Black,
         ReplaceOnUse = LatexCatsuitMag,
         StaticModel = Magazine,
         WorldStaticModel = MagazineGround,
