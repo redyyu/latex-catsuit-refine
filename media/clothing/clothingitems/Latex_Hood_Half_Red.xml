@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>63ab7678-7e5b-474c-ba9f-0c99027ddd23</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_HatCategory>nohairnobeard</m_HatCategory>
+	<m_BaseTextures>clothes\Latex_Hood_Half_Red</m_BaseTextures>
+</clothingItem>

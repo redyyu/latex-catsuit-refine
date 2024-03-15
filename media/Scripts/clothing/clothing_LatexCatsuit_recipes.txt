@@ -26,7 +26,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Catsuit Black {
         keep Paintbrush,
         LatexCatsuitNude/LatexCatsuitRed,
-        PaintBlack,
+        PaintBlack=8,
         
         Result: LatexCatsuitBlack,
         SkillRequired: Tailoring=2,
@@ -44,7 +44,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Catsuit Red {
         keep Paintbrush,
         LatexCatsuitNude/LatexCatsuitBlack,
-        PaintRed,
+        PaintRed=8,
         
         Result: LatexCatsuitRed,
         SkillRequired: Tailoring=2,
@@ -81,7 +81,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Hood Black {
         keep Paintbrush,
         LatexHoodNude/LatexHoodRed,
-        PaintBlack,
+        PaintBlack=3,
         
         Result: LatexHoodBlack,
         SkillRequired: Tailoring=2,
@@ -99,9 +99,93 @@ module LatexCatsuitRefine
     recipe Paint Latex Hood Red {
         keep Paintbrush,
         LatexHoodNude/LatexHoodBlack,
-        PaintRed,
+        PaintRed=3,
         
         Result: LatexHoodRed,
+        SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
+
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: Painting,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Latex Hood Half Nude {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        LatexHoodNude,
+
+        Result: LatexHoodHalfNude,
+        SkillRequired: Tailoring=4,
+
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 450.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Latex Hood Half Black {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        LatexHoodBlack,
+
+        Result: LatexHoodHalfBlack,
+        SkillRequired: Tailoring=4,
+
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 450.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Hood Half Black {
+        keep Paintbrush,
+        LatexHoodHalfNude/LatexHoodHalfRed,
+        PaintBlack=3,
+        
+        Result: LatexHoodHalfBlack,
+        SkillRequired: Tailoring=2,
+        CanBeDoneFromFloor: true,
+        AllowDestroyedItem: false,
+
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: Painting,
+        Time: 300.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Make Latex Hood Half Red {
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        LatexHoodRed,
+
+        Result: LatexHoodHalfRed,
+        SkillRequired: Tailoring=4,
+
+        AnimNode: RipSheets,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        Sound: ClothesRipping,
+        Time: 450.0,
+        Category: Latex Catsuit,
+    }
+
+    recipe Paint Latex Hood Half Red {
+        keep Paintbrush,
+        LatexHoodHalfNude/LatexHoodHalfBlack,
+        PaintRed=3,
+        
+        Result: LatexHoodHalfRed,
         SkillRequired: Tailoring=2,
         CanBeDoneFromFloor: true,
         AllowDestroyedItem: false,
@@ -136,7 +220,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Leotard Black {
         keep Paintbrush,
         LatexLeotardNude/LatexLeotardRed,
-        PaintBlack,
+        PaintBlack=3,
         
         Result: LatexLeotardBlack,
         SkillRequired: Tailoring=2,
@@ -154,7 +238,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Leotard Red {
         keep Paintbrush,
         LatexLeotardNude/LatexLeotardBlack,
-        PaintRed,
+        PaintRed=3,
         
         Result: LatexLeotardRed,
         SkillRequired: Tailoring=2,
@@ -191,7 +275,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Leotard H Black {
         keep Paintbrush,
         LatexLeotardHNude/LatexLeotardHRed,
-        PaintBlack,
+        PaintBlack=3,
         
         Result: LatexLeotardHBlack,
         SkillRequired: Tailoring=2,
@@ -209,7 +293,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Leotard H Red {
         keep Paintbrush,
         LatexLeotardHNude/LatexLeotardHBlack,
-        PaintRed,
+        PaintRed=3,
         
         Result: LatexLeotardHRed,
         SkillRequired: Tailoring=2,
@@ -246,7 +330,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Leotard S Black {
         keep Paintbrush,
         LatexLeotardSNude/LatexLeotardSRed,
-        PaintBlack,
+        PaintBlack=2,
         
         Result: LatexLeotardSBlack,
         SkillRequired: Tailoring=2,
@@ -264,7 +348,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Leotard S Red {
         keep Paintbrush,
         LatexLeotardSNude/LatexLeotardSBlack,
-        PaintRed,
+        PaintRed=2,
         
         Result: LatexLeotardSRed,
         SkillRequired: Tailoring=2,
@@ -301,7 +385,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Bolero Black {
         keep Paintbrush,
         LatexBoleroNude/LatexBoleroRed,
-        PaintBlack,
+        PaintBlack=4,
         
         Result: LatexBoleroBlack,
         SkillRequired: Tailoring=2,
@@ -319,7 +403,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Bolero Red {
         keep Paintbrush,
         LatexBoleroNude/LatexBoleroBlack,
-        PaintRed,
+        PaintRed=4,
         
         Result: LatexBoleroRed,
         SkillRequired: Tailoring=2,
@@ -356,7 +440,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Pants Black {
         keep Paintbrush,
         LatexPantsNude/LatexPantsRed,
-        PaintBlack,
+        PaintBlack=4,
         
         Result: LatexPantsBlack,
         SkillRequired: Tailoring=2,
@@ -374,7 +458,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Pants Red {
         keep Paintbrush,
         LatexPantsNude/LatexPantsBlack,
-        PaintRed,
+        PaintRed=4,
         
         Result: LatexPantsRed,
         SkillRequired: Tailoring=2,
@@ -411,7 +495,7 @@ module LatexCatsuitRefine
     recipe Paint Open Crotch Latex Pants Black {
         keep Paintbrush,
         LatexPantsOpenNude/LatexPantsOpenRed,
-        PaintBlack,
+        PaintBlack=4,
         
         Result: LatexPantsOpenBlack,
         SkillRequired: Tailoring=2,
@@ -429,7 +513,7 @@ module LatexCatsuitRefine
     recipe Paint Open Crotch Latex Pants Red {
         keep Paintbrush,
         LatexPantsOpenNude/LatexPantsOpenBlack,
-        PaintRed,
+        PaintRed=4,
         
         Result: LatexPantsOpenRed,
         SkillRequired: Tailoring=2,
@@ -451,7 +535,7 @@ module LatexCatsuitRefine
         RubberBand=3,
         Thread=3,
         Tarp=1,
-        PaintBlack,
+        PaintBlack=2,
 
         Result: LatexSkirtBlack,
         SkillRequired: Tailoring=7,
@@ -471,7 +555,7 @@ module LatexCatsuitRefine
         RubberBand=3,
         Thread=3,
         Tarp=1,
-        PaintRed,
+        PaintRed=2,
 
         Result: LatexSkirtRed,
         SkillRequired: Tailoring=7,
@@ -487,7 +571,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Skirt Black {
         keep Paintbrush,
         LatexSkirtRed,
-        PaintBlack,
+        PaintBlack=2,
         
         Result: LatexSkirtBlack,
         SkillRequired: Tailoring=2,
@@ -505,7 +589,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Skirt Red {
         keep Paintbrush,
         LatexSkirtBlack,
-        PaintRed,
+        PaintRed=2,
         
         Result: LatexSkirtRed,
         SkillRequired: Tailoring=2,
@@ -542,7 +626,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Stockings Black {
         keep Paintbrush,
         LatexStockingsNude/LatexStockingsRed,
-        PaintBlack,
+        PaintBlack=3,
         
         Result: LatexStockingsBlack,
         SkillRequired: Tailoring=2,
@@ -560,7 +644,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Stockings Red {
         keep Paintbrush,
         LatexStockingsNude/LatexStockingsBlack,
-        PaintRed,
+        PaintRed=3,
         
         Result: LatexStockingsRed,
         SkillRequired: Tailoring=2,
@@ -597,7 +681,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Stockings H Black {
         keep Paintbrush,
         LatexStockingsHNude/LatexStockingsHRed,
-        PaintBlack,
+        PaintBlack=3,
         
         Result: LatexStockingsHBlack,
         SkillRequired: Tailoring=2,
@@ -615,7 +699,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Stockings H Red {
         keep Paintbrush,
         LatexStockingsHNude/LatexStockingsHBlack,
-        PaintRed,
+        PaintRed=3,
         
         Result: LatexStockingsHRed,
         SkillRequired: Tailoring=2,
@@ -652,7 +736,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Gloves Black {
         keep Paintbrush,
         LatexGlovesNude/LatexGlovesRed,
-        PaintBlack,
+        PaintBlack=3,
         
         Result: LatexGlovesBlack,
         SkillRequired: Tailoring=2,
@@ -670,7 +754,7 @@ module LatexCatsuitRefine
     recipe Paint Latex Gloves Red {
         keep Paintbrush,
         LatexGlovesNude/LatexGlovesBlack,
-        PaintRed,
+        PaintRed=3,
         
         Result: LatexGlovesRed,
         SkillRequired: Tailoring=2,
@@ -706,7 +790,7 @@ module LatexCatsuitRefine
     recipe Paint Harness Black {
         keep Paintbrush,
         HarnessRope/HarnessRed,
-        PaintBlack,
+        PaintBlack=2,
         
         Result: HarnessBlack,
         SkillRequired: Tailoring=2,
@@ -724,7 +808,7 @@ module LatexCatsuitRefine
     recipe Paint Harness Red {
         keep Paintbrush,
         HarnessRope/HarnesBlack,
-        PaintRed,
+        PaintRed=2,
         
         Result: HarnessRed,
         SkillRequired: Tailoring=2,
@@ -760,7 +844,7 @@ module LatexCatsuitRefine
      recipe Paint Harness W Black {
         keep Paintbrush,
         HarnessWRope/HarnessWRed,
-        PaintBlack,
+        PaintBlack=2,
         
         Result: HarnessWBlack,
         SkillRequired: Tailoring=2,
@@ -778,7 +862,7 @@ module LatexCatsuitRefine
     recipe Paint Harness W Red {
         keep Paintbrush,
         HarnessWRope/HarnesWBlack,
-        PaintRed,
+        PaintRed=2,
         
         Result: HarnessWRed,
         SkillRequired: Tailoring=2,
@@ -872,7 +956,7 @@ module LatexCatsuitRefine
         RubberBand=4,
         Thread=8,
         Tarp=4,
-        PaintBlack,
+        PaintBlack=3,
 
         Result: Bag_LatexBagBlack,
         SkillRequired: Tailoring=9,
@@ -892,7 +976,7 @@ module LatexCatsuitRefine
         RubberBand=4,
         Thread=8,
         Tarp=4,
-        PaintRed,
+        PaintRed=3,
 
         Result: Bag_LatexBagRed,
         SkillRequired: Tailoring=9,
@@ -908,7 +992,7 @@ module LatexCatsuitRefine
     recipe Paint Black Latex Bag {
         keep Paintbrush,
         Bag_LatexBagRed,
-        PaintBlack,
+        PaintBlack=3,
         
         Result: Bag_LatexBagBlack,
         SkillRequired: Tailoring=2,
@@ -929,7 +1013,7 @@ module LatexCatsuitRefine
     recipe Paint Red Latex Bag {
         keep Paintbrush,
         Bag_LatexBagBlack,
-        PaintRed,
+        PaintRed=3,
         
         Result: Bag_LatexBagRed,
         SkillRequired: Tailoring=2,

@@ -132,6 +132,21 @@
 		<path>media/clothing/clothingItems/Latex_Hood_Red.xml</path>
 		<guid>91926c09-017d-4aec-84ab-5e4bcfb018bd</guid>
 	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Latex_Hood_Half_Black.xml</path>
+		<guid>f9a04a5f-1cc3-4b42-8ec8-d07f9208c0ef</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Hood_Half_Nude.xml</path>
+		<guid>c4b0107d-a16e-4cf8-8f52-b9209d8e5d85</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Latex_Hood_Half_Red.xml</path>
+		<guid>63ab7678-7e5b-474c-ba9f-0c99027ddd23</guid>
+	</files>
 
 	<files>
 		<path>media/clothing/clothingItems/Latex_Leotard_Black.xml</path>

@@ -1,371 +1,386 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <outfitManager>
-	<m_FemaleOutfits>
-		<m_Name>LatexCatsuitGirlBlack</m_Name>
-		<m_Guid>6a84aaf7-a8db-482e-8d0d-78b5f2a3ac24</m_Guid>
-		<m_Top>false</m_Top>
-		<m_Pants>false</m_Pants>
-		<m_AllowPantsHue>false</m_AllowPantsHue>
-		<m_AllowTopTint>false</m_AllowTopTint>
-		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
-		
-		<m_items>
-			<!-- Cuffs_Collar -->
-			<probability>0.4</probability>
-			<itemGUID>54d56acb-ab29-4f84-ad4f-591f9871b54c</itemGUID>
-			<subItems>
-				<!-- Cuffs_Collar_Black -->
-				<itemGUID>19b10dc7-d9cf-40b0-967c-75cf72528e82</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.2</probability>
-			<!-- Harness_Red -->
-			<itemGUID>eeb74f46-08f3-453b-8559-5e21ce6ffe67</itemGUID>
-			<subItems>
-				<!-- Harness_Rope -->
-				<itemGUID>66a47611-1187-4f1f-b606-29600e3fa670</itemGUID>
-			</subItems>
-			<subItems>
-				<!-- Harness_W_Red -->
-				<itemGUID>3ac19d26-b6ef-4dbc-921a-806393932df8</itemGUID>
-			</subItems>
-			<subItems>
-				<!-- Harness_W_Rope -->
-				<itemGUID>868a9dc2-f23b-4dbd-8e27-dd0a1e860170</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<!-- Latex_Gloves_Black -->
-			<probability>0.6</probability>
-			<itemGUID>b4c84f7a-2bb7-4af3-b986-ebc11229df6d</itemGUID>
-		</m_items>
-		<m_items>
-			<!-- Latex_Hood_Black -->
-			<probability>0.6</probability>
-			<itemGUID>828fdb4b-be92-48a4-a38a-87d74d23bf51</itemGUID>
-		</m_items>
-		<m_items>
-			<!-- Latex_Catsuit_Black -->
-			<probability>0.6</probability>
-			<itemGUID>67c442e8-9f9f-4ae1-8696-cdc3986d9a59</itemGUID>
-		</m_items>
-		<m_items>
-			<!-- Latex_Bolero_Black -->
-			<probability>0.4</probability>
-			<itemGUID>5b9447f6-ba45-41ae-ac8d-69ab7414b4c2</itemGUID>
-		</m_items>
-		<m_items>
-			<!-- Latex_Leotard_Black -->
-			<probability>0.4</probability>
-			<itemGUID>98d86440-e5e4-46a6-8e0d-0cfa691f5fd8</itemGUID>
-			<subItems>
-				<!-- Latex_Leotard_H_Black -->
-				<itemGUID>72432ed9-8b4c-4782-ab16-cfb90e846098</itemGUID>
-			</subItems>
-			<subItems>
-				<!-- Latex_Leotard_S_Black -->
-				<itemGUID>b9b4cfd7-f27b-470d-93ea-41f4499b63c0</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<!-- Latex_Pants_Black -->
-			<probability>0.5</probability>
-			<itemGUID>430f1a52-2bd9-439e-aa63-b05e6071d1ae</itemGUID>
-			<subItems>
-				<!-- Latex_Pants_Open_Black -->
-				<itemGUID>d71efe07-b915-4ca4-96ce-7f9ce4d0b671</itemGUID>
-			</subItems>
-			<subItems>
-				<!-- Latex_Skirt_Black -->
-				<itemGUID>caf070d5-5251-4ed7-9b8b-1ee96c381ab7</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<!-- Latex_Bag_Red -->
-			<probability>0.2</probability>
-			<itemGUID>e2be3ac2-a110-413e-b698-6cc17997f8e0</itemGUID>
-			<subItems>
-				<!-- Latex_Bag_Black -->
-				<itemGUID>06e2878e-094c-4069-8c32-7c46d234f4b1</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<!-- Latex_Stockings_Black -->
-			<probability>0.8</probability>
-			<itemGUID>526929cb-a86a-442c-b916-8f5553cb5b11</itemGUID>
-			<subItems>
-				<!-- Latex_Stockings_H_Black -->
-				<itemGUID>d312defc-f584-4eb2-9f70-a911b10d7bfc</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<!-- Shoes_BlackBoots -->
-			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
-			<subItems>
-				<!-- Shoes_RidingBoots -->
-				<itemGUID>09bc4da2-6038-4575-985b-c27b8dbfef6c</itemGUID>
-			</subItems>
-		</m_items>
-	</m_FemaleOutfits>
+    <m_FemaleOutfits>
+        <m_Name>LatexCatsuitGirlBlack</m_Name>
+        <m_Guid>6a84aaf7-a8db-482e-8d0d-78b5f2a3ac24</m_Guid>
+        <m_Top>false</m_Top>
+        <m_Pants>false</m_Pants>
+        <m_AllowPantsHue>false</m_AllowPantsHue>
+        <m_AllowTopTint>false</m_AllowTopTint>
+        <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+        
+        <m_items>
+            <!-- Cuffs_Collar -->
+            <probability>0.4</probability>
+            <itemGUID>54d56acb-ab29-4f84-ad4f-591f9871b54c</itemGUID>
+            <subItems>
+                <!-- Cuffs_Collar_Black -->
+                <itemGUID>19b10dc7-d9cf-40b0-967c-75cf72528e82</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <probability>0.2</probability>
+            <!-- Harness_Red -->
+            <itemGUID>eeb74f46-08f3-453b-8559-5e21ce6ffe67</itemGUID>
+            <subItems>
+                <!-- Harness_Rope -->
+                <itemGUID>66a47611-1187-4f1f-b606-29600e3fa670</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Harness_W_Red -->
+                <itemGUID>3ac19d26-b6ef-4dbc-921a-806393932df8</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Harness_W_Rope -->
+                <itemGUID>868a9dc2-f23b-4dbd-8e27-dd0a1e860170</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Latex_Gloves_Black -->
+            <probability>0.6</probability>
+            <itemGUID>b4c84f7a-2bb7-4af3-b986-ebc11229df6d</itemGUID>
+        </m_items>
+        <m_items>
+            <!-- Latex_Hood_Black -->
+            <probability>0.6</probability>
+            <itemGUID>828fdb4b-be92-48a4-a38a-87d74d23bf51</itemGUID>
+            <subItems>
+                <probability>0.6</probability>
+                <!-- Latex_Hood_Half_Black -->
+                <itemGUID>f9a04a5f-1cc3-4b42-8ec8-d07f9208c0ef</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Latex_Catsuit_Black -->
+            <probability>0.6</probability>
+            <itemGUID>67c442e8-9f9f-4ae1-8696-cdc3986d9a59</itemGUID>
+        </m_items>
+        <m_items>
+            <!-- Latex_Bolero_Black -->
+            <probability>0.4</probability>
+            <itemGUID>5b9447f6-ba45-41ae-ac8d-69ab7414b4c2</itemGUID>
+        </m_items>
+        <m_items>
+            <!-- Latex_Leotard_Black -->
+            <probability>0.4</probability>
+            <itemGUID>98d86440-e5e4-46a6-8e0d-0cfa691f5fd8</itemGUID>
+            <subItems>
+                <!-- Latex_Leotard_H_Black -->
+                <itemGUID>72432ed9-8b4c-4782-ab16-cfb90e846098</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Latex_Leotard_S_Black -->
+                <itemGUID>b9b4cfd7-f27b-470d-93ea-41f4499b63c0</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Latex_Pants_Black -->
+            <probability>0.5</probability>
+            <itemGUID>430f1a52-2bd9-439e-aa63-b05e6071d1ae</itemGUID>
+            <subItems>
+                <!-- Latex_Pants_Open_Black -->
+                <itemGUID>d71efe07-b915-4ca4-96ce-7f9ce4d0b671</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Latex_Skirt_Black -->
+                <itemGUID>caf070d5-5251-4ed7-9b8b-1ee96c381ab7</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Latex_Bag_Red -->
+            <probability>0.2</probability>
+            <itemGUID>e2be3ac2-a110-413e-b698-6cc17997f8e0</itemGUID>
+            <subItems>
+                <!-- Latex_Bag_Black -->
+                <itemGUID>06e2878e-094c-4069-8c32-7c46d234f4b1</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Latex_Stockings_Black -->
+            <probability>0.8</probability>
+            <itemGUID>526929cb-a86a-442c-b916-8f5553cb5b11</itemGUID>
+            <subItems>
+                <!-- Latex_Stockings_H_Black -->
+                <itemGUID>d312defc-f584-4eb2-9f70-a911b10d7bfc</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Shoes_BlackBoots -->
+            <itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
+            <subItems>
+                <!-- Shoes_RidingBoots -->
+                <itemGUID>09bc4da2-6038-4575-985b-c27b8dbfef6c</itemGUID>
+            </subItems>
+        </m_items>
+    </m_FemaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>LatexCatsuitGirlNude</m_Name>
-		<m_Guid>5f7877ae-6d60-4c0d-92c1-bee2facdc6e6</m_Guid>
-		<m_Top>false</m_Top>
-		<m_Pants>false</m_Pants>
-		<m_AllowPantsHue>false</m_AllowPantsHue>
-		<m_AllowTopTint>false</m_AllowTopTint>
-		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
-		
-		<m_items>
-			<!-- Cuffs_Collar -->
-			<probability>0.4</probability>
-			<itemGUID>54d56acb-ab29-4f84-ad4f-591f9871b54c</itemGUID>
-		</m_items>
-		<m_items>
-			<probability>0.2</probability>
-			<!-- Harness_Rope -->
-			<itemGUID>66a47611-1187-4f1f-b606-29600e3fa670</itemGUID>
-			<subItems>
-				<!-- Harness_W_Rope -->
-				<itemGUID>868a9dc2-f23b-4dbd-8e27-dd0a1e860170</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<!-- Latex_Gloves_Nude -->
-			<probability>0.6</probability>
-			<itemGUID>5f7193b9-c1dc-425e-98fc-871ce9998cde</itemGUID>
-		</m_items>
-		<m_items>
-			<!-- Latex_Hood_Nude -->
-			<probability>0.6</probability>
-			<itemGUID>b872ac97-94d8-4c1b-a93e-15e18db0198d</itemGUID>
-		</m_items>
-		<m_items>
-			<!-- Latex_Catsuit_Nude -->
-			<probability>0.6</probability>
-			<itemGUID>c24f06e3-7873-4328-95e2-e0ce339c929f</itemGUID>
-		</m_items>
-		<m_items>
-			<!-- Latex_Bolero_Nude -->
-			<probability>0.4</probability>
-			<itemGUID>65acf7bf-ae9f-4027-a36d-4c5a9699156d</itemGUID>
-		</m_items>
-		<m_items>
-			<!-- Latex_Leotard_Nude -->
-			<probability>0.4</probability>
-			<itemGUID>a5f38ec8-d59f-460c-ac4d-ee5a44fb5bab</itemGUID>
-			<subItems>
-				<!-- Latex_Leotard_H_Nude -->
-				<itemGUID>3608ced2-ee05-47d4-84c4-0860de786023</itemGUID>
-			</subItems>
-			<subItems>
-				<!-- Latex_Leotard_S_Nude -->
-				<itemGUID>384982a5-b5e8-47fd-952e-2fcbe2e8a955</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<!-- Latex_Pants_Nude -->
-			<probability>0.5</probability>
-			<itemGUID>43f2a668-df30-4c89-b8e5-90fb12ebdda4</itemGUID>
-			<subItems>
-				<!-- Latex_Pants_Open_Nude -->
-				<itemGUID>53ef7282-1e8f-4e73-9093-2fe17dd284be</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<!-- Latex_Bag_Red -->
-			<probability>0.2</probability>
-			<itemGUID>e2be3ac2-a110-413e-b698-6cc17997f8e0</itemGUID>
-			<subItems>
-				<!-- Latex_Bag_Black -->
-				<itemGUID>06e2878e-094c-4069-8c32-7c46d234f4b1</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<!-- Latex_Stockings_Nude -->
-			<probability>0.8</probability>
-			<itemGUID>7925d3dc-0d08-4a70-b55f-a680ac5548ae</itemGUID>
-			<subItems>
-				<!-- Latex_Stockings_H_Black -->
-				<itemGUID>57af4c9e-a128-4136-b3ad-72dafe0c1e40</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<!-- Shoes_BlackBoots -->
-			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
-			<subItems>
-				<!-- Shoes_RidingBoots -->
-				<itemGUID>09bc4da2-6038-4575-985b-c27b8dbfef6c</itemGUID>
-			</subItems>
-		</m_items>
-	</m_FemaleOutfits>
+    <m_FemaleOutfits>
+        <m_Name>LatexCatsuitGirlNude</m_Name>
+        <m_Guid>5f7877ae-6d60-4c0d-92c1-bee2facdc6e6</m_Guid>
+        <m_Top>false</m_Top>
+        <m_Pants>false</m_Pants>
+        <m_AllowPantsHue>false</m_AllowPantsHue>
+        <m_AllowTopTint>false</m_AllowTopTint>
+        <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+        
+        <m_items>
+            <!-- Cuffs_Collar -->
+            <probability>0.4</probability>
+            <itemGUID>54d56acb-ab29-4f84-ad4f-591f9871b54c</itemGUID>
+        </m_items>
+        <m_items>
+            <probability>0.2</probability>
+            <!-- Harness_Rope -->
+            <itemGUID>66a47611-1187-4f1f-b606-29600e3fa670</itemGUID>
+            <subItems>
+                <!-- Harness_W_Rope -->
+                <itemGUID>868a9dc2-f23b-4dbd-8e27-dd0a1e860170</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Latex_Gloves_Nude -->
+            <probability>0.6</probability>
+            <itemGUID>5f7193b9-c1dc-425e-98fc-871ce9998cde</itemGUID>
+        </m_items>
+        <m_items>
+            <!-- Latex_Hood_Nude -->
+            <probability>0.6</probability>
+            <itemGUID>b872ac97-94d8-4c1b-a93e-15e18db0198d</itemGUID>
+            <subItems>
+                <probability>0.6</probability>
+                <!-- Latex_Hood_Half_Nude -->
+                <itemGUID>c4b0107d-a16e-4cf8-8f52-b9209d8e5d85</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Latex_Catsuit_Nude -->
+            <probability>0.6</probability>
+            <itemGUID>c24f06e3-7873-4328-95e2-e0ce339c929f</itemGUID>
+        </m_items>
+        <m_items>
+            <!-- Latex_Bolero_Nude -->
+            <probability>0.4</probability>
+            <itemGUID>65acf7bf-ae9f-4027-a36d-4c5a9699156d</itemGUID>
+        </m_items>
+        <m_items>
+            <!-- Latex_Leotard_Nude -->
+            <probability>0.4</probability>
+            <itemGUID>a5f38ec8-d59f-460c-ac4d-ee5a44fb5bab</itemGUID>
+            <subItems>
+                <!-- Latex_Leotard_H_Nude -->
+                <itemGUID>3608ced2-ee05-47d4-84c4-0860de786023</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Latex_Leotard_S_Nude -->
+                <itemGUID>384982a5-b5e8-47fd-952e-2fcbe2e8a955</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Latex_Pants_Nude -->
+            <probability>0.5</probability>
+            <itemGUID>43f2a668-df30-4c89-b8e5-90fb12ebdda4</itemGUID>
+            <subItems>
+                <!-- Latex_Pants_Open_Nude -->
+                <itemGUID>53ef7282-1e8f-4e73-9093-2fe17dd284be</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Latex_Bag_Red -->
+            <probability>0.2</probability>
+            <itemGUID>e2be3ac2-a110-413e-b698-6cc17997f8e0</itemGUID>
+            <subItems>
+                <!-- Latex_Bag_Black -->
+                <itemGUID>06e2878e-094c-4069-8c32-7c46d234f4b1</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Latex_Stockings_Nude -->
+            <probability>0.8</probability>
+            <itemGUID>7925d3dc-0d08-4a70-b55f-a680ac5548ae</itemGUID>
+            <subItems>
+                <!-- Latex_Stockings_H_Black -->
+                <itemGUID>57af4c9e-a128-4136-b3ad-72dafe0c1e40</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Shoes_BlackBoots -->
+            <itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
+            <subItems>
+                <!-- Shoes_RidingBoots -->
+                <itemGUID>09bc4da2-6038-4575-985b-c27b8dbfef6c</itemGUID>
+            </subItems>
+        </m_items>
+    </m_FemaleOutfits>
 
-	<m_FemaleOutfits>
-		<m_Name>LatexCatsuitGirlRed</m_Name>
-		<m_Guid>c2987d93-a44f-4c42-9120-921c80f65dbf</m_Guid>
-		<m_Top>false</m_Top>
-		<m_Pants>false</m_Pants>
-		<m_AllowPantsHue>false</m_AllowPantsHue>
-		<m_AllowTopTint>false</m_AllowTopTint>
-		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
-		
-		<m_items>
-			<!-- Cuffs_Collar -->
-			<probability>0.4</probability>
-			<itemGUID>54d56acb-ab29-4f84-ad4f-591f9871b54c</itemGUID>
-		</m_items>
-		<m_items>
-			<probability>0.2</probability>
-			<!-- Harness_Rope -->
-			<itemGUID>66a47611-1187-4f1f-b606-29600e3fa670</itemGUID>
-			<subItems>
-				<!-- Harness_W_Rope -->
-				<itemGUID>868a9dc2-f23b-4dbd-8e27-dd0a1e860170</itemGUID>
-			</subItems>
-			<subItems>
-				<!-- Harness_Black -->
-				<itemGUID>6f1f17c3-d531-47aa-be84-2be8ad318f32</itemGUID>
-			</subItems>
-			<subItems>
-				<!-- Harness_W_Black -->
-				<itemGUID>18a0b942-5b9c-435a-af7f-faba40fe9d81</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<!-- Latex_Gloves_Red -->
-			<probability>0.6</probability>
-			<itemGUID>c63394b8-105f-43f9-9210-457e80616705</itemGUID>
-		</m_items>
-		<m_items>
-			<!-- Latex_Hood_Red -->
-			<probability>0.6</probability>
-			<itemGUID>91926c09-017d-4aec-84ab-5e4bcfb018bd</itemGUID>
-		</m_items>
-		<m_items>
-			<!-- Latex_Catsuit_Red -->
-			<probability>0.6</probability>
-			<itemGUID>91b2c01a-fc97-4a7e-ba1b-8d224810bb1d</itemGUID>
-		</m_items>
-		<m_items>
-			<!-- Latex_Bolero_Red -->
-			<probability>0.4</probability>
-			<itemGUID>e5e7a291-022f-4a3c-8e1e-d32ec78012b8</itemGUID>
-		</m_items>
-		<m_items>
-			<!-- Latex_Leotard_Red -->
-			<probability>0.4</probability>
-			<itemGUID>ea46cf71-cca7-4465-b31e-09736d2e36ec</itemGUID>
-			<subItems>
-				<!-- Latex_Leotard_H_Red -->
-				<itemGUID>ee025e52-8755-4a6c-8f93-9f10f5d83421</itemGUID>
-			</subItems>
-			<subItems>
-				<!-- Latex_Leotard_S_Red -->
-				<itemGUID>45cf427b-b623-40f6-ba53-334f94c57917</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<!-- Latex_Bag_Red -->
-			<probability>0.2</probability>
-			<itemGUID>e2be3ac2-a110-413e-b698-6cc17997f8e0</itemGUID>
-			<subItems>
-				<!-- Latex_Bag_Black -->
-				<itemGUID>06e2878e-094c-4069-8c32-7c46d234f4b1</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<!-- Latex_Pants_Red -->
-			<probability>0.5</probability>
-			<itemGUID>1c872d9e-5408-4a80-8f0d-68ad2759e944</itemGUID>
-			<subItems>
-				<!-- Latex_Pants_Open_Red -->
-				<itemGUID>d8c8bb5d-95b5-42a0-8053-11c8b6042a0e</itemGUID>
-			</subItems>
-			<subItems>
-				<!-- Latex_Skirt_Red -->
-				<itemGUID>8cc8c00c-9f38-4ecd-b491-a95bc3bca984</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<!-- Latex_Stockings_Red -->
-			<probability>0.8</probability>
-			<itemGUID>f3aba4c7-6a3d-490d-a5eb-46d38ecc1509</itemGUID>
-			<subItems>
-				<!-- Latex_Stockings_H_Red -->
-				<itemGUID>b93c5822-2630-4155-aaad-7c2297dc82aa</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<!-- Shoes_BlackBoots -->
-			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
-			<subItems>
-				<!-- Shoes_RidingBoots -->
-				<itemGUID>09bc4da2-6038-4575-985b-c27b8dbfef6c</itemGUID>
-			</subItems>
-		</m_items>
-	</m_FemaleOutfits>
-	
-	<m_FemaleOutfits>
-		<m_Name>LatexCatsuitGirlTights</m_Name>
-		<m_Guid>5adc5f2a-0b76-4723-b99e-277eb84a0179</m_Guid>
-		<m_Top>false</m_Top>
-		<m_Pants>false</m_Pants>
-		<m_AllowPantsHue>false</m_AllowPantsHue>
-		<m_AllowTopTint>false</m_AllowTopTint>
-		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
-		
-		<m_items>
-			<!-- Cuffs_Collar -->
-			<probability>0.4</probability>
-			<itemGUID>54d56acb-ab29-4f84-ad4f-591f9871b54c</itemGUID>
-			<subItems>
-				<!-- Cuffs_Collar_Black -->
-				<itemGUID>19b10dc7-d9cf-40b0-967c-75cf72528e82</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<probability>0.2</probability>
-			<!-- Harness_Rope -->
-			<itemGUID>66a47611-1187-4f1f-b606-29600e3fa670</itemGUID>
-			<subItems>
-				<!-- Harness_W_Rope -->
-				<itemGUID>868a9dc2-f23b-4dbd-8e27-dd0a1e860170</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<!-- Latex_Catsuit_Fishnet -->
-			<itemGUID>452d96d9-d23e-4633-96c4-9608636ebd9a</itemGUID>
-			<subItems>
-				<!-- Latex_Catsuit_TightsBlack -->
-				<itemGUID>92dba290-a61a-460a-9861-af8dc1e7877b</itemGUID>
-			</subItems>
-			<subItems>
-				<!-- Latex_Catsuit_TightsBlackSemiTrans -->
-				<itemGUID>509e20a4-a8c7-4e9f-8cc7-85477948af22</itemGUID>
-			</subItems>
-			<subItems>
-				<!-- Latex_Catsuit_TightsBlackTrans -->
-				<itemGUID>596817ef-23c7-4172-9fd7-c8fdb71d58cb</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<!-- Latex_Bag_Red -->
-			<probability>0.2</probability>
-			<itemGUID>e2be3ac2-a110-413e-b698-6cc17997f8e0</itemGUID>
-			<subItems>
-				<!-- Latex_Bag_Black -->
-				<itemGUID>06e2878e-094c-4069-8c32-7c46d234f4b1</itemGUID>
-			</subItems>
-		</m_items>
-		<m_items>
-			<!-- Shoes_BlackBoots -->
-			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
-			<subItems>
-				<!-- Shoes_RidingBoots -->
-				<itemGUID>09bc4da2-6038-4575-985b-c27b8dbfef6c</itemGUID>
-			</subItems>
-		</m_items>
-	</m_FemaleOutfits>
+    <m_FemaleOutfits>
+        <m_Name>LatexCatsuitGirlRed</m_Name>
+        <m_Guid>c2987d93-a44f-4c42-9120-921c80f65dbf</m_Guid>
+        <m_Top>false</m_Top>
+        <m_Pants>false</m_Pants>
+        <m_AllowPantsHue>false</m_AllowPantsHue>
+        <m_AllowTopTint>false</m_AllowTopTint>
+        <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+        
+        <m_items>
+            <!-- Cuffs_Collar -->
+            <probability>0.4</probability>
+            <itemGUID>54d56acb-ab29-4f84-ad4f-591f9871b54c</itemGUID>
+        </m_items>
+        <m_items>
+            <probability>0.2</probability>
+            <!-- Harness_Rope -->
+            <itemGUID>66a47611-1187-4f1f-b606-29600e3fa670</itemGUID>
+            <subItems>
+                <!-- Harness_W_Rope -->
+                <itemGUID>868a9dc2-f23b-4dbd-8e27-dd0a1e860170</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Harness_Black -->
+                <itemGUID>6f1f17c3-d531-47aa-be84-2be8ad318f32</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Harness_W_Black -->
+                <itemGUID>18a0b942-5b9c-435a-af7f-faba40fe9d81</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Latex_Gloves_Red -->
+            <probability>0.6</probability>
+            <itemGUID>c63394b8-105f-43f9-9210-457e80616705</itemGUID>
+        </m_items>
+        <m_items>
+            <!-- Latex_Hood_Red -->
+            <probability>0.6</probability>
+            <itemGUID>91926c09-017d-4aec-84ab-5e4bcfb018bd</itemGUID>
+            <subItems>
+                <probability>0.6</probability>
+                <!-- Latex_Hood_Half_Red -->
+                <itemGUID>63ab7678-7e5b-474c-ba9f-0c99027ddd23</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Latex_Catsuit_Red -->
+            <probability>0.6</probability>
+            <itemGUID>91b2c01a-fc97-4a7e-ba1b-8d224810bb1d</itemGUID>
+        </m_items>
+        <m_items>
+            <!-- Latex_Bolero_Red -->
+            <probability>0.4</probability>
+            <itemGUID>e5e7a291-022f-4a3c-8e1e-d32ec78012b8</itemGUID>
+        </m_items>
+        <m_items>
+            <!-- Latex_Leotard_Red -->
+            <probability>0.4</probability>
+            <itemGUID>ea46cf71-cca7-4465-b31e-09736d2e36ec</itemGUID>
+            <subItems>
+                <!-- Latex_Leotard_H_Red -->
+                <itemGUID>ee025e52-8755-4a6c-8f93-9f10f5d83421</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Latex_Leotard_S_Red -->
+                <itemGUID>45cf427b-b623-40f6-ba53-334f94c57917</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Latex_Bag_Red -->
+            <probability>0.2</probability>
+            <itemGUID>e2be3ac2-a110-413e-b698-6cc17997f8e0</itemGUID>
+            <subItems>
+                <!-- Latex_Bag_Black -->
+                <itemGUID>06e2878e-094c-4069-8c32-7c46d234f4b1</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Latex_Pants_Red -->
+            <probability>0.5</probability>
+            <itemGUID>1c872d9e-5408-4a80-8f0d-68ad2759e944</itemGUID>
+            <subItems>
+                <!-- Latex_Pants_Open_Red -->
+                <itemGUID>d8c8bb5d-95b5-42a0-8053-11c8b6042a0e</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Latex_Skirt_Red -->
+                <itemGUID>8cc8c00c-9f38-4ecd-b491-a95bc3bca984</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Latex_Stockings_Red -->
+            <probability>0.8</probability>
+            <itemGUID>f3aba4c7-6a3d-490d-a5eb-46d38ecc1509</itemGUID>
+            <subItems>
+                <!-- Latex_Stockings_H_Red -->
+                <itemGUID>b93c5822-2630-4155-aaad-7c2297dc82aa</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Shoes_BlackBoots -->
+            <itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
+            <subItems>
+                <!-- Shoes_RidingBoots -->
+                <itemGUID>09bc4da2-6038-4575-985b-c27b8dbfef6c</itemGUID>
+            </subItems>
+        </m_items>
+    </m_FemaleOutfits>
+    
+    <m_FemaleOutfits>
+        <m_Name>LatexCatsuitGirlTights</m_Name>
+        <m_Guid>5adc5f2a-0b76-4723-b99e-277eb84a0179</m_Guid>
+        <m_Top>false</m_Top>
+        <m_Pants>false</m_Pants>
+        <m_AllowPantsHue>false</m_AllowPantsHue>
+        <m_AllowTopTint>false</m_AllowTopTint>
+        <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+        
+        <m_items>
+            <!-- Cuffs_Collar -->
+            <probability>0.4</probability>
+            <itemGUID>54d56acb-ab29-4f84-ad4f-591f9871b54c</itemGUID>
+            <subItems>
+                <!-- Cuffs_Collar_Black -->
+                <itemGUID>19b10dc7-d9cf-40b0-967c-75cf72528e82</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <probability>0.2</probability>
+            <!-- Harness_Rope -->
+            <itemGUID>66a47611-1187-4f1f-b606-29600e3fa670</itemGUID>
+            <subItems>
+                <!-- Harness_W_Rope -->
+                <itemGUID>868a9dc2-f23b-4dbd-8e27-dd0a1e860170</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Latex_Catsuit_Fishnet -->
+            <itemGUID>452d96d9-d23e-4633-96c4-9608636ebd9a</itemGUID>
+            <subItems>
+                <!-- Latex_Catsuit_TightsBlack -->
+                <itemGUID>92dba290-a61a-460a-9861-af8dc1e7877b</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Latex_Catsuit_TightsBlackSemiTrans -->
+                <itemGUID>509e20a4-a8c7-4e9f-8cc7-85477948af22</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Latex_Catsuit_TightsBlackTrans -->
+                <itemGUID>596817ef-23c7-4172-9fd7-c8fdb71d58cb</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Latex_Bag_Red -->
+            <probability>0.2</probability>
+            <itemGUID>e2be3ac2-a110-413e-b698-6cc17997f8e0</itemGUID>
+            <subItems>
+                <!-- Latex_Bag_Black -->
+                <itemGUID>06e2878e-094c-4069-8c32-7c46d234f4b1</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- Shoes_BlackBoots -->
+            <itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
+            <subItems>
+                <!-- Shoes_RidingBoots -->
+                <itemGUID>09bc4da2-6038-4575-985b-c27b8dbfef6c</itemGUID>
+            </subItems>
+        </m_items>
+    </m_FemaleOutfits>
 </outfitManager>

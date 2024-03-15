@@ -194,6 +194,60 @@ module LatexCatsuitRefine
 		WorldStaticModel = BalaclavaFull_Ground,
 	}
 
+    item LatexHoodHalfNude {
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Latex Hood Half Nude,
+		ClothingItem = Latex_Hood_Half_Nude,
+		BodyLocation = TightMask,
+		Bloodlocation = Head;Neck,
+		Icon = Latex_Hood_Half_Nude,
+		Weight = 0.4,
+		ScratchDefense = 10,
+        BiteDefense = 5,
+		Insulation = 0.25,
+		WindResistance = 0.1,
+		WaterResistance = 1,
+		CanHaveHoles = true,
+		WorldStaticModel = BalaclavaFull_Ground,
+	}
+
+    item LatexHoodHalfBlack {
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Latex Hood Half Black,
+		ClothingItem = Latex_Hood_Half_Black,
+		BodyLocation = TightMask,
+		Bloodlocation = Head;Neck,
+		Icon = Latex_Hood_Half_Black,
+		Weight = 0.4,
+		ScratchDefense = 10,
+        BiteDefense = 5,
+		Insulation = 0.25,
+        WindResistance = 0.1,
+		WaterResistance = 1,
+		CanHaveHoles = true,
+		WorldStaticModel = BalaclavaFull_Ground,
+	}
+
+    item LatexHoodHalfRed {
+		DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Latex Hood Half Red,
+		ClothingItem = Latex_Hood_Half_Red,
+		BodyLocation = TightMask,
+		Bloodlocation = Head;Neck,
+		Icon = Latex_Hood_Half_Red,
+		Weight = 0.4,
+		ScratchDefense = 10,
+        BiteDefense = 5,
+		Insulation = 0.25,
+        WindResistance = 0.1,
+		WaterResistance = 1,
+		CanHaveHoles = true,
+		WorldStaticModel = BalaclavaFull_Ground,
+	}
+
 	item LatexLeotardNude {
         DisplayCategory = Clothing,
         Type = Clothing,
