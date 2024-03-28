@@ -1,6 +1,9 @@
 module LatexCatsuitRefine
 {
-
+    imports {
+        Base,
+    }
+    
     item LatexCatsuitMag {
         DisplayCategory = SkillBook,
         Weight = 0.1,

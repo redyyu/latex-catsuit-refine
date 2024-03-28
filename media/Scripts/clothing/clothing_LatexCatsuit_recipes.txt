@@ -1,7 +1,7 @@
 module LatexCatsuitRefine
 {
     imports {
-	    Base,
+        Base,
     }
 
     recipe Make Latex Catsuit Nude {
