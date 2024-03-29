@@ -898,7 +898,8 @@ module LatexCatsuitRefine
     recipe Make Body Stocking Black {
         keep Scissors,
         keep Needle/SutureNeedle,
-        TightsBlack=6,
+        TightsBlack=2,
+        StockingsBlack,
         RubberBand=1,
         Thread=8,
 
@@ -916,7 +917,8 @@ module LatexCatsuitRefine
     recipe Make Body Stocking Semi Transparent {
         keep Scissors,
         keep Needle/SutureNeedle,
-        TightsBlackSemiTrans=6,
+        TightsBlackSemiTrans=2,
+        StockingsBlackSemiTrans,
         RubberBand=1,
         Thread=8,
 
@@ -934,7 +936,8 @@ module LatexCatsuitRefine
     recipe Make Body Stocking Transparent {
         keep Scissors,
         keep Needle/SutureNeedle,
-        TightsBlackTrans=6,
+        TightsBlackTrans=2,
+        StockingsBlackTrans,
         RubberBand=1,
         Thread=8,
 
