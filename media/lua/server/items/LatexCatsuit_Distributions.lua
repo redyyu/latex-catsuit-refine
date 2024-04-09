@@ -1,7 +1,7 @@
 require "Items/ProceduralDistributions"
 require "Items/SuburbsDistributions"
 
-MOD_NAME = "LatexCatsuitRefine";
+MOD_NAME = "LatexCatsuitRefine"
 
 local SUB_BLACK_ITEMS = {
     [".LatexCatsuitMag"]=1,
@@ -85,21 +85,21 @@ local function insertTable(table_obj, key, weight)
     end
 
     if table_obj and table_obj.items then
-        table.insert(table_obj.items, key);
-        table.insert(table_obj.items, weight);
+        table.insert(table_obj.items, key)
+        table.insert(table_obj.items, weight * 1000)
     end
 end 
 
 
-insertTable(ProceduralDistributions.list["CrateBooks"], ".LatexCatsuitMag", 0.01);
-insertTable(ProceduralDistributions.list["BookstoreMisc"], ".LatexCatsuitMag", 0.01);
-insertTable(ProceduralDistributions.list["CrateMagazines"], ".LatexCatsuitMag", 0.01);
-insertTable(ProceduralDistributions.list["LibraryBooks"], ".LatexCatsuitMag", 0.01);
-insertTable(ProceduralDistributions.list["MagazineRackMixed"], ".LatexCatsuitMag", 0.01);
+insertTable(ProceduralDistributions.list["CrateBooks"], ".LatexCatsuitMag", 0.01)
+insertTable(ProceduralDistributions.list["BookstoreMisc"], ".LatexCatsuitMag", 0.01)
+insertTable(ProceduralDistributions.list["CrateMagazines"], ".LatexCatsuitMag", 0.01)
+insertTable(ProceduralDistributions.list["LibraryBooks"], ".LatexCatsuitMag", 0.01)
+insertTable(ProceduralDistributions.list["MagazineRackMixed"], ".LatexCatsuitMag", 0.01)
 
-insertTable(ProceduralDistributions.list.BedroomDresser, ".LatexCatsuitMag", 0.01);
-insertTable(ProceduralDistributions.list.WardrobeWoman, ".LatexCatsuitMag", 0.01);
-insertTable(ProceduralDistributions.list.StripClubDressers, ".LatexCatsuitMag", 0.01);
+insertTable(ProceduralDistributions.list.BedroomDresser, ".LatexCatsuitMag", 0.01)
+insertTable(ProceduralDistributions.list.WardrobeWoman, ".LatexCatsuitMag", 0.01)
+insertTable(ProceduralDistributions.list.StripClubDressers, ".LatexCatsuitMag", 0.01)
 
 
 local function insertSuburbsItems(key, items, weight)
@@ -123,8 +123,8 @@ local function insertSuburbsItems(key, items, weight)
         if k:find(".", 1, true) == 1 then
             k = MOD_NAME..k
         end
-        table.insert(SuburbsDistributions[key].items, k);
-	    table.insert(SuburbsDistributions[key].items, v * weight);
+        table.insert(SuburbsDistributions[key].items, k)
+	    table.insert(SuburbsDistributions[key].items, v * weight)
     end
     
 end
@@ -134,12 +134,22 @@ insertSuburbsItems('Bag_LatexBagBlack', SUB_BLACK_ITEMS, 1)
 insertSuburbsItems('Bag_LatexBagRed', SUB_RED_ITEMS, 1)
 
 
-insertTable(ProceduralDistributions.list.BedroomDresser, ".Bag_LatexBagBlack", 0.005);
-insertTable(ProceduralDistributions.list.BedroomDresser, ".Bag_LatexBagRed", 0.005);
+insertTable(ProceduralDistributions.list.BedroomDresser, ".Bag_LatexBagBlack", 0.005)
+insertTable(ProceduralDistributions.list.BedroomDresser, ".Bag_LatexBagRed", 0.005)
 
-insertTable(ProceduralDistributions.list.WardrobeWoman, ".Bag_LatexBagBlack", 0.005);
-insertTable(ProceduralDistributions.list.WardrobeWoman, ".Bag_LatexBagRed", 0.005);
+insertTable(ProceduralDistributions.list.ClothingStoresUnderwearWoman, ".Bag_LatexBagBlack", 0.005)
+insertTable(ProceduralDistributions.list.ClothingStoresUnderwearWoman, ".Bag_LatexBagRed", 0.005)
 
-insertTable(ProceduralDistributions.list.StripClubDressers, ".Bag_LatexBagBlack", 0.05);
-insertTable(ProceduralDistributions.list.StripClubDressers, ".Bag_LatexBagRed", 0.05);
+insertTable(ProceduralDistributions.list.WardrobeWoman, ".Bag_LatexBagBlack", 0.005)
+insertTable(ProceduralDistributions.list.WardrobeWoman, ".Bag_LatexBagRed", 0.005)
+
+insertTable(ProceduralDistributions.list.WardrobeWomanClassy, ".Bag_LatexBagBlack", 0.01)
+insertTable(ProceduralDistributions.list.WardrobeWomanClassy, ".Bag_LatexBagRed", 0.01)
+
+insertTable(ProceduralDistributions.list.LingerieStoreAccessories, ".Bag_LatexBagBlack", 1)
+insertTable(ProceduralDistributions.list.LingerieStoreAccessories, ".Bag_LatexBagRed", 1)
+
+insertTable(ProceduralDistributions.list.StripClubDressers, ".Bag_LatexBagBlack", 8)
+insertTable(ProceduralDistributions.list.StripClubDressers, ".Bag_LatexBagRed", 8)
+
 
