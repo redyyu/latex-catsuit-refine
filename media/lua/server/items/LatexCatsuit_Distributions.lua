@@ -86,7 +86,7 @@ local function insertTable(table_obj, key, weight)
 
     if table_obj and table_obj.items then
         table.insert(table_obj.items, key)
-        table.insert(table_obj.items, weight * 1000)
+        table.insert(table_obj.items, weight)
     end
 end 
 
