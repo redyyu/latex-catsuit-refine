@@ -880,7 +880,7 @@ module LatexCatsuitRefine
     recipe Make Body Fishnets {
         keep Scissors,
         keep Needle/SutureNeedle,
-        BlackFishnet=3,
+        BlackFishnet=2,
         RubberBand=4,
         Thread=8,
 
