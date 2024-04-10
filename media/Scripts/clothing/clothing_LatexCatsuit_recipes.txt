@@ -7,10 +7,10 @@ module LatexCatsuitRefine
     recipe Make Latex Catsuit Nude {
         keep Scissors,
         keep Needle/SutureNeedle,
-        LeatherStrips=8,
+        LeatherStrips=12,
         RubberBand=6,
-        Thread=8,
-        Tarp=4,
+        Thread=10,
+        Tarp=6,
 
         Result: LatexCatsuitNude,
         SkillRequired: Tailoring=10,
