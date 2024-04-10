@@ -134,22 +134,22 @@ insertSuburbsItems('Bag_LatexBagBlack', SUB_BLACK_ITEMS, 1)
 insertSuburbsItems('Bag_LatexBagRed', SUB_RED_ITEMS, 1)
 
 
-insertTable(ProceduralDistributions.list.BedroomDresser, ".Bag_LatexBagBlack", 0.005)
-insertTable(ProceduralDistributions.list.BedroomDresser, ".Bag_LatexBagRed", 0.005)
+insertTable(ProceduralDistributions.list.BedroomDresser, ".Bag_LatexBagBlack", 0.01)
+insertTable(ProceduralDistributions.list.BedroomDresser, ".Bag_LatexBagRed", 0.01)
 
-insertTable(ProceduralDistributions.list.ClothingStoresUnderwearWoman, ".Bag_LatexBagBlack", 0.005)
-insertTable(ProceduralDistributions.list.ClothingStoresUnderwearWoman, ".Bag_LatexBagRed", 0.005)
+insertTable(ProceduralDistributions.list.ClothingStoresUnderwearWoman, ".Bag_LatexBagBlack", 0.01)
+insertTable(ProceduralDistributions.list.ClothingStoresUnderwearWoman, ".Bag_LatexBagRed", 0.01)
 
-insertTable(ProceduralDistributions.list.WardrobeWoman, ".Bag_LatexBagBlack", 0.005)
-insertTable(ProceduralDistributions.list.WardrobeWoman, ".Bag_LatexBagRed", 0.005)
+insertTable(ProceduralDistributions.list.WardrobeWoman, ".Bag_LatexBagBlack", 0.01)
+insertTable(ProceduralDistributions.list.WardrobeWoman, ".Bag_LatexBagRed", 0.01)
 
 insertTable(ProceduralDistributions.list.WardrobeWomanClassy, ".Bag_LatexBagBlack", 0.01)
 insertTable(ProceduralDistributions.list.WardrobeWomanClassy, ".Bag_LatexBagRed", 0.01)
 
-insertTable(ProceduralDistributions.list.LingerieStoreAccessories, ".Bag_LatexBagBlack", 1)
-insertTable(ProceduralDistributions.list.LingerieStoreAccessories, ".Bag_LatexBagRed", 1)
+insertTable(ProceduralDistributions.list.LingerieStoreAccessories, ".Bag_LatexBagBlack", 3)
+insertTable(ProceduralDistributions.list.LingerieStoreAccessories, ".Bag_LatexBagRed", 3)
 
-insertTable(ProceduralDistributions.list.StripClubDressers, ".Bag_LatexBagBlack", 8)
-insertTable(ProceduralDistributions.list.StripClubDressers, ".Bag_LatexBagRed", 8)
+insertTable(ProceduralDistributions.list.StripClubDressers, ".Bag_LatexBagBlack", 5)
+insertTable(ProceduralDistributions.list.StripClubDressers, ".Bag_LatexBagRed", 5)
 
 
