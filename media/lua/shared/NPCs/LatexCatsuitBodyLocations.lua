@@ -2,7 +2,7 @@
 -- Location IDs must match BodyLocation= and CanBeEquipped= values in items.txt.
 local group = BodyLocations.getGroup("Human")
 
-group:getOrCreateLocation("Harness")
+group:getOrCreateLocation("TorsoRig")
 
 local groupAttached = AttachedLocations.getGroup("Human")
 groupAttached:getOrCreateLocation("Harness Rig Light"):setAttachmentName("harness_rig_light")
